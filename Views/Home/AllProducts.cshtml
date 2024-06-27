@@ -1,0 +1,292 @@
+﻿@using Laboris.ViewModels
+@model ShopVm
+
+
+
+<style>
+</style>
+
+</style>
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Shop Page</h2>
+
+            <ul class="breadcrumb">
+                <li><a asp-controller="Home" asp-action="Index" class="text-light">Home</a></li>
+                <li class="active">Shop Page</li>
+            </ul>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- Shop Section Start -->
+<div class="section section-padding">
+    <div class="container">
+        <!-- Product Section Wrapper Start -->
+        <div class="product-section-wrapper">
+            <div class="row flex-row-reverse">
+                <div class="col-lg-9">
+                    <!-- Shop top Bar Start -->
+                    <div class="shop-top-bar">
+                        <div class="shop-text">
+                            <p>
+                                <span>2</span> Product Found of
+                                <span>@Model.Products.Count</span>
+                            </p>
+                        </div>
+                        <div class="shop-tabs">
+                            <ul class="nav">
+                                <li>
+                                    <button class="active" data-bs-toggle="tab" data-bs-target="#grid">
+                                        <i class="fa fa-th"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button data-bs-toggle="tab" data-bs-target="#list">
+                                        <i class="fa fa-list"></i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="shop-sort">
+
+
+                            <form asp-action="AllProducts" asp-controller="Home"
+                                  asp-route-categoryId="@Model.CategoryId"
+                                  asp-route-search="@Model.Search">
+                                <span class="title">Sort By :</span>
+                                <select class="select2-2" name="Order" onchange="this.form.submit()">
+
+                                    <option value=""><a>Auto</a></option>
+                                    <option value="1"><a>Name</a></option>
+                                    <option value="2"><a>Price</a></option>
+                                    <option value="3"><a>Date</a></option>
+
+                                </select>
+                            </form>
+
+                        </div>
+
+                    </div>
+                    <!-- Shop top Bar End -->
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="grid">
+                            <!-- Shop Product Wrapper Start -->
+                            <div class="shop-product-wrapper">
+                                <div class="row">
+
+                                    @foreach (Products product in Model.Products)
+                                    {
+                                        <div class="col-lg-4 col-sm-6">
+                                            <!-- Single Product Start -->
+                                            <div class="single-product">
+                                                <a href="#"><img src="~/upload/products/@product.PhotoUrl" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">@product.Name</a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$@product.Price</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    @if (product.Percent > 0)
+                                                    {
+                                                        <span class="discount text-danger">-@product.Percent%</span>
+                                                    }
+
+                                                    <li>
+                                                        <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#"><i class="pe-7s-like"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- Single Product End -->
+                                        </div>
+                                    }
+
+
+                                </div>
+                            </div>
+                            <!-- Shop Product Wrapper End -->
+
+                        </div>
+                        <div class="tab-pane fade" id="list">
+                            <!-- Shop Product Wrapper Start -->
+                            <div class="shop-product-wrapper">
+
+
+                                @foreach (var product in Model.Products)
+                                {
+                                    <!-- Single Product Start -->
+                                    <div class="single-product-02 product-list">
+                                        <div class="product-images">
+                                            <a href="#"><img src="~/upload/products/@product.PhotoUrl" width="270" height="303" alt="product" /></a>
+
+                                            <ul class="product-meta">
+                                                @if (product.Percent > 0)
+                                                {
+                                                    <span class="discount">-@product.Percent%</span>
+                                                }
+                                                <li>
+                                                    <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a class="action" href="#"><i class="pe-7s-like"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="product-content">
+                                            <h4 class="title">
+                                                <a href="product-details.html">@product.Name</a>
+                                            </h4>
+                                            <div class="price">
+                                                <span class="sale-price">$@product.Price</span>
+
+                                            </div>
+                                            <p>
+                                                @product.Description
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Single Product End -->
+                                }
+
+
+
+
+
+                            </div>
+                            <!-- Shop Product Wrapper End -->
+
+                        </div>
+                    </div>
+
+                    <!-- Page pagination Start -->
+                    <div class="page-pagination pt-5 mt-5">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-left pt-2"></i></a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-right pt-2"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- Page pagination End -->
+                </div>
+                <div class="col-lg-3">
+                    <!-- Sidebar Start -->
+                    <div class="sidebar">
+
+                        <!-- Sidebar Widget Start -->
+                        <div class="sidebar-widget">
+                            <div class="widget-search">
+
+                                <form asp-controller="Home" asp-action="AllProducts"
+                                      asp-route-categoryId="@Model.CategoryId"
+                                      asp-route-order="@Model.Order">
+
+                                    <input type="text" placeholder="Search"
+                                           name="search"
+                                           value="@Model.Search">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+
+                            </div>
+                        </div>
+                        <!-- Sidebar Widget End -->
+                        <!-- Sidebar Widget Start -->
+                        <div class="sidebar-widget">
+                            <h4 class="widget-title">Filter By Category</h4>
+                            <div class="widget-checkbox widget-categories">
+                                <ul class="checkbox-items">
+                                    <li>
+                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-categoryId="@Model.CategoryId" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                            <span>All</span>
+                                        </a>
+                                    </li>
+
+                                    @foreach (var category in Model.Categories)
+                                    {
+                                        <li>
+                                            <a asp-controller="Home" asp-action="AllProducts" asp-route-categoryId="@category.Id" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                                <span>@category.Name (@category.Products.Count)</span>
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Sidebar Widget End -->
+                       
+                        <!-- Sidebar Widget Start -->
+                        <div class="sidebar-widget">
+                            <h4 class="widget-title">Filter By Color</h4>
+                            <div class="widget-checkbox">
+                                <ul class="checkbox-items">
+                                    <li>
+                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="blue" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                            <span class="color-blue" style="display: inline-block; width: 15px; height: 15px; background-color: blue; margin-right: 5px;"></span>Blue
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="dark_blue" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                            <span class="color-dark-blue" style="display: inline-block; width: 15px; height: 15px; background-color: darkblue; margin-right: 5px;"></span>Dark Blue
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="gray" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                            <span class="color-gray" style="display: inline-block; width: 15px; height: 15px; background-color: gray; margin-right: 5px;"></span>Gray
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="green" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                            <span class="color-green" style="display: inline-block; width: 15px; height: 15px; background-color: green; margin-right: 5px;"></span>Green
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="black" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                            <span class="color-black" style="display: inline-block; width: 15px; height: 15px; background-color: black; margin-right: 5px;"></span>Black
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="red" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                            <span class="color-red" style="display: inline-block; width: 15px; height: 15px; background-color: red; margin-right: 5px;"></span>Red
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Sidebar Widget End -->
+                        <!-- Sidebar Widget Start -->
+                        <div class="sidebar-widget">
+
+                            <h4 class="widget-title">Tags</h4>
+
+                            <div class="widget-tags">
+                                <ul class="tags-list">
+                                    <li><a href="#">Clothing</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">For Men</a></li>
+                                    <li><a href="#">Women</a></li>
+                                    <li><a href="#">Fashion</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Sidebar Widget End -->
+                    </div>
+                    <!-- Sidebar End -->
+                </div>
+            </div>
+        </div>
+        <!-- Product Section Wrapper End -->
+    </div>
+</div>
+<!-- Shop Section End -->

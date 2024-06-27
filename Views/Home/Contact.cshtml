@@ -1,0 +1,159 @@
+﻿@model Contact
+
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<style>
+    .footer-top {
+        display: none !important;
+    }
+
+    .umumi {
+        margin-bottom: 300px !important;
+    }
+</style>
+
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Contact Us</h2>
+
+            <ul class="breadcrumb">
+                <li><a asp-controller="Home" asp-action="Index" class="text-light">Home</a></li>
+                <li class="active">Contact Us</li>
+            </ul>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- Contact Section Start -->
+<div class="section section-padding">
+    <div class="container umumi">
+        <!-- Contact Wrapper Start -->
+        <div class="contact-wrapper">
+            <div class="row gx-0">
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h2 class="title">Contact Info</h2>
+                        <p>
+                            Use one of these to contact us or send us a message
+                        </p>
+
+                        <!-- Contact Info Items Start -->
+                        <div class="contact-info-items">
+                            <div class="single-contact-info">
+                                <div class="info-icon">
+                                    <i class="pe-7s-call"></i>
+                                </div>
+                                <div class="info-content">
+                                    <p>
+                                        <a href="tel:+0553745729" class="text-dark text-muted">055-374-57-29</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="single-contact-info">
+                                <div class="info-icon">
+                                    <i class="pe-7s-mail"></i>
+                                </div>
+                                <div class="info-content">
+                                    <p>
+                                        <a href="mailto:basthicamalova@mail.ru" class="text-dark text-muted">basthicamalova@mail.ru</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="single-contact-info">
+                                <div class="info-icon">
+                                    <i class="pe-7s-map-marker"></i>
+                                </div>
+                                <div class="info-content">
+                                    <p>November 8 avenue</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contact Info Items End -->
+                        <!-- Contact Social Start -->
+                        <ul class="social justify-content-center">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-tumblr"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/camalova.78/"><i class="fa fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                        <!-- Contact Social End -->
+
+                        <img src="~/assets/images/contact-info.png" alt="Contact-info" />
+                    </div>
+                </div>
+                <div class="col-lg-8 ">
+                    <!-- Contact Form Start  -->
+                    <div class="contact-form">
+                        <form id="contact-form" action="https://htmldemo.net/furbar-1/furbar/assets/php/contact.php" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-form">
+                                        <input type="text" name="name" asp-for="Name" placeholder="Name*" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form">
+                                        <input type="email" name="email" asp-for="Email" placeholder="Email*" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form">
+                                        <input type="text" name="subject" asp-for="Subject" placeholder="Subject" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form">
+                                        <input type="text" name="phone" asp-for="Phone" placeholder="Phone No" />
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single-form">
+                                        <textarea name="message" asp-for="Comment" placeholder="Write your comments here"></textarea>
+                                    </div>
+                                </div>
+                                <p class="form-message"></p>
+                                <div class="col-md-12">
+                                    <div class="single-form">
+                                        <button type="submit" class="btn btn-dark btn-hover-primary">
+                                            Submit Review
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Contact Form End  -->
+                </div>
+            </div>
+        </div>
+        <!-- Contact Wrapper End -->
+    </div>
+</div>
+<!-- Contact Section End -->
+<!-- Contact Map Start -->
+
+<div class="contact-map">
+    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=41+8+Noyabr+Prospekti,+Bakı&t=&z=17&ie=UTF8&iwloc=&output=embed"></iframe>
+</div>
+
+
+
+
+<!-- Contact Map End -->

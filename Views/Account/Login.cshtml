@@ -1,0 +1,93 @@
+﻿@model LoginVm
+@using Laboris.ViewModels
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        .footer-top {
+            display: none !important;
+        }
+
+        .custom-link {
+            color: black !important;
+            text-decoration: none !important;
+            transition: color 0.3s ease !important;
+        }
+
+        .custom-link:hover {
+            color: orange !important;
+            text-decoration: underline !important;
+        }
+
+        .umumi{
+            padding-bottom:100px !important;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Page Banner Section Start -->
+    <div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+        <div class="container">
+            <!-- Page Banner Content End -->
+            <div class="page-banner-content">
+                <h2 class="title">Login</h2>
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Login</li>
+                </ul>
+            </div>
+            <!-- Page Banner Content End -->
+        </div>
+    </div>
+    <!-- Page Banner Section End -->
+
+    <!-- Login Section Start -->
+    <div class="section umumi section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <!-- Login & Register Start -->
+                    <div class="login-register-wrapper">
+                        <h4 class="title">Login to Your Account</h4>
+                        <form method="post">
+
+                            <div class="single-form">
+                                <input asp-for="Email" type="text" placeholder="Username or email *" />
+                                <span asp-validation-for="Email" style="color:red"></span>
+                            </div>
+                            <div class="single-form">
+                                <input asp-for="Password" type="password" placeholder="Password" />
+                                <span asp-validation-for="Password" style="color:red"></span>
+                            </div>
+                            <div class="single-form">
+                                <input type="checkbox" id="remember" />
+                                <label asp-for="RememberMe" for="remember"><span></span> Remember me</label>
+                                <span asp-validation-for="RememberMe" style="color:red"></span>
+                            </div>
+                            <div class="single-form">
+                                <button class="btn btn-primary btn-hover-dark">Login</button>
+                            </div>
+
+                            <div asp-validation-summary="All" class="text-danger"></div>
+
+                        </form>
+                        <p><a href="#" class="custom-link">Lost your password?</a></p>
+
+                        <p>
+                            No account?
+                            <a asp-controller="Account" asp-action="Register" class="custom-link">Create one here.</a>
+                        </p>
+                    </div>
+                    <!-- Login & Register End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Section End -->
+</body>
+</html>

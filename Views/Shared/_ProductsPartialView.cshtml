@@ -1,0 +1,55 @@
+﻿@using Laboris.Models
+@model List<Products>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-3 col-sm-6">
+            <!-- Single Product Start -->
+            <div class="single-product-02">
+                <div class="product-images">
+                    <a href="product-details.html">
+                        <img src="~/upload/products/@item.PhotoUrl" width="270" height="303"
+                             alt="product" />
+                    </a>
+
+                    <ul class="product-meta">
+                       
+                        <li>
+                            <a class="action" asp-action="AddBasket" asp-controller="Cart" asp-route-id="@item.Id"><i class="pe-7s-shopbag"></i></a>
+                        </li>
+                        <li>
+                            <a class="action" href="#"><i class="pe-7s-like"></i></a>
+                        </li>
+                    </ul>
+
+                    @if (item.OldPrice!=null)
+                    {
+                        <span class="discount">- @(item.Price*100/item.OldPrice)</span>
+                    }
+
+                </div>
+                <div class="product-content">
+                    <h4 class="title">
+                        <a href="product-details.html">
+                            @item.Name
+                        </a>
+                    </h4>
+                    <div class="price">
+                        <span class="sale-price">$@item.Price</span>
+
+                        @if (item.OldPrice > 0)
+                        {
+                            <span class="old-price">$@item.OldPrice</span>
+                        }
+
+                    </div>
+                </div>
+            </div>
+            <!-- Single Product End -->
+        </div>
+    }
+
+</div>
+

@@ -1,0 +1,1517 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/.DS_Store",
+      "PackagePath": "staticwebassets/assets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/plugins/animate.min.css",
+      "PackagePath": "staticwebassets/assets/css/plugins/animate.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/plugins/bootstrap.min.css",
+      "PackagePath": "staticwebassets/assets/css/plugins/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/plugins/font-awesome.min.css",
+      "PackagePath": "staticwebassets/assets/css/plugins/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/plugins/ion.rangeSlider.min.css",
+      "PackagePath": "staticwebassets/assets/css/plugins/ion.rangeSlider.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/plugins/odometer.min.css",
+      "PackagePath": "staticwebassets/assets/css/plugins/odometer.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/plugins/pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets/assets/css/plugins/pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/plugins/select2.min.css",
+      "PackagePath": "staticwebassets/assets/css/plugins/select2.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/plugins/swiper-bundle.min.css",
+      "PackagePath": "staticwebassets/assets/css/plugins/swiper-bundle.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/css/style.min.css",
+      "PackagePath": "staticwebassets/assets/css/style.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/Pe-icon-7-strokebb1d.eot",
+      "PackagePath": "staticwebassets/assets/fonts/Pe-icon-7-strokebb1d.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/Pe-icon-7-strokebb1d.svg",
+      "PackagePath": "staticwebassets/assets/fonts/Pe-icon-7-strokebb1d.svg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/Pe-icon-7-strokebb1d.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/Pe-icon-7-strokebb1d.ttf"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/Pe-icon-7-strokebb1d.woff",
+      "PackagePath": "staticwebassets/assets/fonts/Pe-icon-7-strokebb1d.woff"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/Pe-icon-7-stroked41d.eot",
+      "PackagePath": "staticwebassets/assets/fonts/Pe-icon-7-stroked41d.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/fonts/fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets/assets/fonts/fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/.DS_Store",
+      "PackagePath": "staticwebassets/assets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/author-1.jpg",
+      "PackagePath": "staticwebassets/assets/images/author-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/author/author-1.png",
+      "PackagePath": "staticwebassets/assets/images/author/author-1.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/author/author-2.png",
+      "PackagePath": "staticwebassets/assets/images/author/author-2.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/author/author-3.png",
+      "PackagePath": "staticwebassets/assets/images/author/author-3.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/banner-menu-01.jpg",
+      "PackagePath": "staticwebassets/assets/images/banner-menu-01.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/banner-menu-02.jpg",
+      "PackagePath": "staticwebassets/assets/images/banner-menu-02.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/banner/banner-01.jpg",
+      "PackagePath": "staticwebassets/assets/images/banner/banner-01.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/banner/banner-02.jpg",
+      "PackagePath": "staticwebassets/assets/images/banner/banner-02.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/banner/banner-03.jpg",
+      "PackagePath": "staticwebassets/assets/images/banner/banner-03.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/banner/banner-04.jpg",
+      "PackagePath": "staticwebassets/assets/images/banner/banner-04.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/banner/banner-05.jpg",
+      "PackagePath": "staticwebassets/assets/images/banner/banner-05.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/banner/banner-06.jpg",
+      "PackagePath": "staticwebassets/assets/images/banner/banner-06.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/besti.2jpeg.jpeg",
+      "PackagePath": "staticwebassets/assets/images/besti.2jpeg.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/besti.jpeg",
+      "PackagePath": "staticwebassets/assets/images/besti.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/besti3.jpeg",
+      "PackagePath": "staticwebassets/assets/images/besti3.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/bg-1.jpg",
+      "PackagePath": "staticwebassets/assets/images/bg-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog-main.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog-main.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/admin-author.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/admin-author.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-01.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-01.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-02.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-02.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-03.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-03.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-04.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-04.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-05.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-05.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-06.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-06.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-07.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-07.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-08.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-08.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-09.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-09.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-dec-img1.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-dec-img1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-dec-img2.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-dec-img2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-details.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-details.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-list-01.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-list-01.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-list-02.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-list-02.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-list-03.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-list-03.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-list-04.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-list-04.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-list-05.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-list-05.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/blog-list-06.jpg",
+      "PackagePath": "staticwebassets/assets/images/blog/blog-list-06.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/blog/signechar.png",
+      "PackagePath": "staticwebassets/assets/images/blog/signechar.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-1.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-1.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-2-1.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-2-1.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-2-2.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-2-2.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-2-3.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-2-3.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-2-4.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-2-4.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-2-5.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-2-5.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-2.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-2.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-3.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-3.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-4.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-4.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/brand/brand-5.png",
+      "PackagePath": "staticwebassets/assets/images/brand/brand-5.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/cart.png",
+      "PackagePath": "staticwebassets/assets/images/cart.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/cart/cart-1.jpg",
+      "PackagePath": "staticwebassets/assets/images/cart/cart-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/cart/cart-2.jpg",
+      "PackagePath": "staticwebassets/assets/images/cart/cart-2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/cart/cart-3.jpg",
+      "PackagePath": "staticwebassets/assets/images/cart/cart-3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/contact-info.png",
+      "PackagePath": "staticwebassets/assets/images/contact-info.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/countdown.png",
+      "PackagePath": "staticwebassets/assets/images/countdown.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/fatime.jpeg",
+      "PackagePath": "staticwebassets/assets/images/fatime.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/favicon.png",
+      "PackagePath": "staticwebassets/assets/images/favicon.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/fur-back.jpeg",
+      "PackagePath": "staticwebassets/assets/images/fur-back.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/gulnare.jpeg",
+      "PackagePath": "staticwebassets/assets/images/gulnare.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/gulshen.jpeg",
+      "PackagePath": "staticwebassets/assets/images/gulshen.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/icon/icon-1.png",
+      "PackagePath": "staticwebassets/assets/images/icon/icon-1.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/icon/icon-2.png",
+      "PackagePath": "staticwebassets/assets/images/icon/icon-2.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/icon/icon-3.png",
+      "PackagePath": "staticwebassets/assets/images/icon/icon-3.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/icon/icon-4.png",
+      "PackagePath": "staticwebassets/assets/images/icon/icon-4.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/icon/icon-5.jpg",
+      "PackagePath": "staticwebassets/assets/images/icon/icon-5.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/icon/quote.png",
+      "PackagePath": "staticwebassets/assets/images/icon/quote.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/images-gallery/image-1.jpg",
+      "PackagePath": "staticwebassets/assets/images/images-gallery/image-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/images-gallery/image-2.jpg",
+      "PackagePath": "staticwebassets/assets/images/images-gallery/image-2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/images-gallery/image-3.jpg",
+      "PackagePath": "staticwebassets/assets/images/images-gallery/image-3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/images-gallery/image-4.jpg",
+      "PackagePath": "staticwebassets/assets/images/images-gallery/image-4.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/logo.png",
+      "PackagePath": "staticwebassets/assets/images/logo.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/marker.jpg",
+      "PackagePath": "staticwebassets/assets/images/marker.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/page-banner.jpg",
+      "PackagePath": "staticwebassets/assets/images/page-banner.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/payment-2.html",
+      "PackagePath": "staticwebassets/assets/images/payment-2.html"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/payment.png",
+      "PackagePath": "staticwebassets/assets/images/payment.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product-details/product-details-1.jpg",
+      "PackagePath": "staticwebassets/assets/images/product-details/product-details-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product-details/product-details-2.jpg",
+      "PackagePath": "staticwebassets/assets/images/product-details/product-details-2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product-details/product-details-3.jpg",
+      "PackagePath": "staticwebassets/assets/images/product-details/product-details-3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product-details/product-details-4.jpg",
+      "PackagePath": "staticwebassets/assets/images/product-details/product-details-4.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product-details/product-details-5.jpg",
+      "PackagePath": "staticwebassets/assets/images/product-details/product-details-5.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-01.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-01.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-02.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-02.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-03.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-03.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-04.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-04.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-05.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-05.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-06.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-06.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-07.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-07.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-08.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-08.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-09.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-09.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-10.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-10.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-11.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-11.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-12.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-12.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/product/product-13.jpg",
+      "PackagePath": "staticwebassets/assets/images/product/product-13.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/products-banner/products-01.jpg",
+      "PackagePath": "staticwebassets/assets/images/products-banner/products-01.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/products-banner/products-02.jpg",
+      "PackagePath": "staticwebassets/assets/images/products-banner/products-02.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/products-banner/products-03.jpg",
+      "PackagePath": "staticwebassets/assets/images/products-banner/products-03.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/products-banner/products-04.jpg",
+      "PackagePath": "staticwebassets/assets/images/products-banner/products-04.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/rukush.jpeg",
+      "PackagePath": "staticwebassets/assets/images/rukush.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/rukush2.jpeg",
+      "PackagePath": "staticwebassets/assets/images/rukush2.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/slider/slider-01.jpg",
+      "PackagePath": "staticwebassets/assets/images/slider/slider-01.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/slider/slider-02.jpg",
+      "PackagePath": "staticwebassets/assets/images/slider/slider-02.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/slider/slider-item-1.png",
+      "PackagePath": "staticwebassets/assets/images/slider/slider-item-1.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/slider/slider-item-2.png",
+      "PackagePath": "staticwebassets/assets/images/slider/slider-item-2.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/slider/slider-item-3.png",
+      "PackagePath": "staticwebassets/assets/images/slider/slider-item-3.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/team/team-1.jpg",
+      "PackagePath": "staticwebassets/assets/images/team/team-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/team/team-2.jpg",
+      "PackagePath": "staticwebassets/assets/images/team/team-2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/images/team/team-3.jpg",
+      "PackagePath": "staticwebassets/assets/images/team/team-3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/.DS_Store",
+      "PackagePath": "staticwebassets/assets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/main.js",
+      "PackagePath": "staticwebassets/assets/js/main.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/plugins/ajax-contact.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/ajax-contact.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/plugins/bootstrap.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/plugins/ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/plugins/jquery.zoom.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/jquery.zoom.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/plugins/odometer.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/odometer.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/plugins/popper.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/popper.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/plugins/select2.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/select2.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/plugins/swiper-bundle.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/swiper-bundle.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/vendor/jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets/assets/js/vendor/jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/assets/js/vendor/modernizr-3.11.2.min.js",
+      "PackagePath": "staticwebassets/assets/js/vendor/modernizr-3.11.2.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/.DS_Store",
+      "PackagePath": "staticwebassets/manage/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/css/app.min.css",
+      "PackagePath": "staticwebassets/manage/css/app.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/manage/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/css/icons.min.css",
+      "PackagePath": "staticwebassets/manage/css/icons.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/dripicons-v2.eot",
+      "PackagePath": "staticwebassets/manage/fonts/dripicons-v2.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/dripicons-v2.svg",
+      "PackagePath": "staticwebassets/manage/fonts/dripicons-v2.svg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/dripicons-v2.ttf",
+      "PackagePath": "staticwebassets/manage/fonts/dripicons-v2.ttf"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/dripicons-v2.woff",
+      "PackagePath": "staticwebassets/manage/fonts/dripicons-v2.woff"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/dripicons-v2d41d.eot",
+      "PackagePath": "staticwebassets/manage/fonts/dripicons-v2d41d.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/manage/fonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/manage/fonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/manage/fonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/manage/fonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/manage/fonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets/manage/fonts/fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/manage/fonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/manage/fonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/manage/fonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/manage/fonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/manage/fonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets/manage/fonts/fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/manage/fonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/manage/fonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/manage/fonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/manage/fonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/manage/fonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets/manage/fonts/fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/feathere8ab.eot",
+      "PackagePath": "staticwebassets/manage/fonts/feathere8ab.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/feathere8ab.svg",
+      "PackagePath": "staticwebassets/manage/fonts/feathere8ab.svg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/feathere8ab.ttf",
+      "PackagePath": "staticwebassets/manage/fonts/feathere8ab.ttf"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/feathere8ab.woff",
+      "PackagePath": "staticwebassets/manage/fonts/feathere8ab.woff"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/materialdesignicons-webfontd41d.eot",
+      "PackagePath": "staticwebassets/manage/fonts/materialdesignicons-webfontd41d.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/materialdesignicons-webfonte013.eot",
+      "PackagePath": "staticwebassets/manage/fonts/materialdesignicons-webfonte013.eot"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/materialdesignicons-webfonte013.ttf",
+      "PackagePath": "staticwebassets/manage/fonts/materialdesignicons-webfonte013.ttf"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/materialdesignicons-webfonte013.woff",
+      "PackagePath": "staticwebassets/manage/fonts/materialdesignicons-webfonte013.woff"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/fonts/materialdesignicons-webfonte013.woff2",
+      "PackagePath": "staticwebassets/manage/fonts/materialdesignicons-webfonte013.woff2"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/.DS_Store",
+      "PackagePath": "staticwebassets/manage/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/attached-files/img-1.jpg",
+      "PackagePath": "staticwebassets/manage/images/attached-files/img-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/attached-files/img-2.jpg",
+      "PackagePath": "staticwebassets/manage/images/attached-files/img-2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/attached-files/img-3.jpg",
+      "PackagePath": "staticwebassets/manage/images/attached-files/img-3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/email/1.png",
+      "PackagePath": "staticwebassets/manage/images/email/1.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/email/2.png",
+      "PackagePath": "staticwebassets/manage/images/email/2.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/email/3.png",
+      "PackagePath": "staticwebassets/manage/images/email/3.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/error-page.jpeg",
+      "PackagePath": "staticwebassets/manage/images/error-page.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/faq_icons/edit.png",
+      "PackagePath": "staticwebassets/manage/images/faq_icons/edit.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/faq_icons/envelope.png",
+      "PackagePath": "staticwebassets/manage/images/faq_icons/envelope.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/faq_icons/files.png",
+      "PackagePath": "staticwebassets/manage/images/faq_icons/files.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/faq_icons/open-book-1.png",
+      "PackagePath": "staticwebassets/manage/images/faq_icons/open-book-1.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/faq_icons/shield-1.png",
+      "PackagePath": "staticwebassets/manage/images/faq_icons/shield-1.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/faq_icons/tag.png",
+      "PackagePath": "staticwebassets/manage/images/faq_icons/tag.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/favicon.ico",
+      "PackagePath": "staticwebassets/manage/images/favicon.ico"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/flags/germany.jpg",
+      "PackagePath": "staticwebassets/manage/images/flags/germany.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/flags/italy.jpg",
+      "PackagePath": "staticwebassets/manage/images/flags/italy.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/flags/russia.jpg",
+      "PackagePath": "staticwebassets/manage/images/flags/russia.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/flags/spain.jpg",
+      "PackagePath": "staticwebassets/manage/images/flags/spain.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/flags/us.jpg",
+      "PackagePath": "staticwebassets/manage/images/flags/us.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/logo-dark.png",
+      "PackagePath": "staticwebassets/manage/images/logo-dark.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/logo-light.png",
+      "PackagePath": "staticwebassets/manage/images/logo-light.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/logo-sm.png",
+      "PackagePath": "staticwebassets/manage/images/logo-sm.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/logoo.png",
+      "PackagePath": "staticwebassets/manage/images/logoo.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/small/img-1.jpg",
+      "PackagePath": "staticwebassets/manage/images/small/img-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/small/img-2.jpg",
+      "PackagePath": "staticwebassets/manage/images/small/img-2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/small/img-3.jpg",
+      "PackagePath": "staticwebassets/manage/images/small/img-3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/small/img-4.jpg",
+      "PackagePath": "staticwebassets/manage/images/small/img-4.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/small/img-5.jpg",
+      "PackagePath": "staticwebassets/manage/images/small/img-5.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/small/img-6.jpg",
+      "PackagePath": "staticwebassets/manage/images/small/img-6.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/small/img-7.jpg",
+      "PackagePath": "staticwebassets/manage/images/small/img-7.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-1.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-2.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-3.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-4.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-4.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-5.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-5.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-6.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-6.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-7.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-7.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-8.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-8.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/images/users/avatar-9.jpg",
+      "PackagePath": "staticwebassets/manage/images/users/avatar-9.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/app.min.js",
+      "PackagePath": "staticwebassets/manage/js/app.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/calendar.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/calendar.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/chartjs.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/chartjs.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/dashboard.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/dashboard.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/datatables.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/datatables.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/flot.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/flot.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/form-advanced.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/form-advanced.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/form-masks.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/form-masks.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/form-pickers.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/form-pickers.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/form-quilljs.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/form-quilljs.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/form-validation.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/form-validation.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/form-xeditable.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/form-xeditable.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/gmaps.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/gmaps.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/jvectormap.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/jvectormap.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/mapael-map.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/mapael-map.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/morris.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/morris.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/responsive-table.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/responsive-table.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/sparkline.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/sparkline.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/sweetalerts.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/sweetalerts.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/tabledit.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/tabledit.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/tablesaw.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/tablesaw.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/toastr.init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/toastr.init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/pages/wizard-init.js",
+      "PackagePath": "staticwebassets/manage/js/pages/wizard-init.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/js/vendor.min.js",
+      "PackagePath": "staticwebassets/manage/js/vendor.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/.DS_Store",
+      "PackagePath": "staticwebassets/manage/libs/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/autocomplete/jquery.autocomplete.min.js",
+      "PackagePath": "staticwebassets/manage/libs/autocomplete/jquery.autocomplete.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/autonumeric/autoNumeric-min.js",
+      "PackagePath": "staticwebassets/manage/libs/autonumeric/autoNumeric-min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.js",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-daterangepicker/daterangepicker.css",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-daterangepicker/daterangepicker.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-daterangepicker/daterangepicker.js",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-daterangepicker/daterangepicker.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-filestyle2/bootstrap-filestyle.min.js",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-filestyle2/bootstrap-filestyle.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-maxlength/bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-maxlength/bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-select/bootstrap-select.min.css",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-select/bootstrap-select.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-select/bootstrap-select.min.js",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-select/bootstrap-select.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-tagsinput/bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-tagsinput/bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-timepicker/bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-timepicker/bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-timepicker/bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-timepicker/bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.css",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets/manage/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/chart-js/Chart.bundle.min.js",
+      "PackagePath": "staticwebassets/manage/libs/chart-js/Chart.bundle.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/clockpicker/bootstrap-clockpicker.min.css",
+      "PackagePath": "staticwebassets/manage/libs/clockpicker/bootstrap-clockpicker.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/clockpicker/bootstrap-clockpicker.min.js",
+      "PackagePath": "staticwebassets/manage/libs/clockpicker/bootstrap-clockpicker.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/custombox/custombox.min.css",
+      "PackagePath": "staticwebassets/manage/libs/custombox/custombox.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/custombox/custombox.min.js",
+      "PackagePath": "staticwebassets/manage/libs/custombox/custombox.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/buttons.bootstrap4.css",
+      "PackagePath": "staticwebassets/manage/libs/datatables/buttons.bootstrap4.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets/manage/libs/datatables/buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/buttons.html5.min.js",
+      "PackagePath": "staticwebassets/manage/libs/datatables/buttons.html5.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/buttons.print.min.js",
+      "PackagePath": "staticwebassets/manage/libs/datatables/buttons.print.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets/manage/libs/datatables/dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets/manage/libs/datatables/dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets/manage/libs/datatables/dataTables.buttons.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets/manage/libs/datatables/dataTables.responsive.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets/manage/libs/datatables/jquery.dataTables.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/responsive.bootstrap4.css",
+      "PackagePath": "staticwebassets/manage/libs/datatables/responsive.bootstrap4.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/datatables/responsive.bootstrap4.min.js",
+      "PackagePath": "staticwebassets/manage/libs/datatables/responsive.bootstrap4.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/dropzone/dropzone.min.css",
+      "PackagePath": "staticwebassets/manage/libs/dropzone/dropzone.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/dropzone/dropzone.min.js",
+      "PackagePath": "staticwebassets/manage/libs/dropzone/dropzone.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/curvedLines.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/curvedLines.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.axislabels.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.axislabels.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.crosshair.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.crosshair.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.orderBars.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.orderBars.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.pie.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.pie.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.resize.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.resize.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.selection.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.selection.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.stack.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.stack.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.time.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.time.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/flot-charts/jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets/manage/libs/flot-charts/jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/fullcalendar/fullcalendar.min.css",
+      "PackagePath": "staticwebassets/manage/libs/fullcalendar/fullcalendar.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/fullcalendar/fullcalendar.min.js",
+      "PackagePath": "staticwebassets/manage/libs/fullcalendar/fullcalendar.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/gmaps/gmaps.min.js",
+      "PackagePath": "staticwebassets/manage/libs/gmaps/gmaps.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/img/clear.html",
+      "PackagePath": "staticwebassets/manage/libs/img/clear.html"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/img/loading.html",
+      "PackagePath": "staticwebassets/manage/libs/img/loading.html"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-knob/jquery.knob.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-knob/jquery.knob.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-mapael/jquery.mapael.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-mapael/jquery.mapael.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-mapael/usa_states.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-mapael/usa_states.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-mapael/world_countries.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-mapael/world_countries.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-mask-plugin/jquery.mask.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-mask-plugin/jquery.mask.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-mockjax/jquery.mockjax.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-mockjax/jquery.mockjax.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-sparkline/jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-sparkline/jquery.sparkline.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-steps/jquery.steps.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-steps/jquery.steps.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-tabledit/jquery.tabledit.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-tabledit/jquery.tabledit.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-toast/jquery.toast.min.css",
+      "PackagePath": "staticwebassets/manage/libs/jquery-toast/jquery.toast.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-toast/jquery.toast.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-toast/jquery.toast.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-ui/jquery-ui.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-ui/jquery-ui.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-1.2.2.css",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-1.2.2.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-1.2.2.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-1.2.2.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-au-mill-en.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-au-mill-en.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-ca-lcc-en.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-ca-lcc-en.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-in-mill-en.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-in-mill-en.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-us-il-chicago-mill-en.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-us-il-chicago-mill-en.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-us-merc-en.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-us-merc-en.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jquery-vectormap/jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets/manage/libs/jquery-vectormap/jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/jszip/jszip.min.js",
+      "PackagePath": "staticwebassets/manage/libs/jszip/jszip.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/katex/katex.min.js",
+      "PackagePath": "staticwebassets/manage/libs/katex/katex.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/moment/moment.min.js",
+      "PackagePath": "staticwebassets/manage/libs/moment/moment.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/morris-js/morris.min.js",
+      "PackagePath": "staticwebassets/manage/libs/morris-js/morris.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/parsleyjs/parsley.min.js",
+      "PackagePath": "staticwebassets/manage/libs/parsleyjs/parsley.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/pdfmake/pdfmake.min.js",
+      "PackagePath": "staticwebassets/manage/libs/pdfmake/pdfmake.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/pdfmake/vfs_fonts.js",
+      "PackagePath": "staticwebassets/manage/libs/pdfmake/vfs_fonts.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/quill/quill.bubble.css",
+      "PackagePath": "staticwebassets/manage/libs/quill/quill.bubble.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/quill/quill.core.css",
+      "PackagePath": "staticwebassets/manage/libs/quill/quill.core.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/quill/quill.min.js",
+      "PackagePath": "staticwebassets/manage/libs/quill/quill.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/quill/quill.snow.css",
+      "PackagePath": "staticwebassets/manage/libs/quill/quill.snow.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/raphael/raphael.min.js",
+      "PackagePath": "staticwebassets/manage/libs/raphael/raphael.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/rwd-table/rwd-table.min.css",
+      "PackagePath": "staticwebassets/manage/libs/rwd-table/rwd-table.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/rwd-table/rwd-table.min.js",
+      "PackagePath": "staticwebassets/manage/libs/rwd-table/rwd-table.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/select2/select2.min.css",
+      "PackagePath": "staticwebassets/manage/libs/select2/select2.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/select2/select2.min.js",
+      "PackagePath": "staticwebassets/manage/libs/select2/select2.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/summernote/font/summernotec360-2.html",
+      "PackagePath": "staticwebassets/manage/libs/summernote/font/summernotec360-2.html"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/summernote/font/summernotec360-3.html",
+      "PackagePath": "staticwebassets/manage/libs/summernote/font/summernotec360-3.html"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/summernote/font/summernotec360.html",
+      "PackagePath": "staticwebassets/manage/libs/summernote/font/summernotec360.html"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/summernote/summernote-bs4.css",
+      "PackagePath": "staticwebassets/manage/libs/summernote/summernote-bs4.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/summernote/summernote-bs4.min.js",
+      "PackagePath": "staticwebassets/manage/libs/summernote/summernote-bs4.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/sweetalert2/sweetalert2.min.css",
+      "PackagePath": "staticwebassets/manage/libs/sweetalert2/sweetalert2.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/sweetalert2/sweetalert2.min.js",
+      "PackagePath": "staticwebassets/manage/libs/sweetalert2/sweetalert2.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/switchery/switchery.min.css",
+      "PackagePath": "staticwebassets/manage/libs/switchery/switchery.min.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/switchery/switchery.min.js",
+      "PackagePath": "staticwebassets/manage/libs/switchery/switchery.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/tablesaw/tablesaw.css",
+      "PackagePath": "staticwebassets/manage/libs/tablesaw/tablesaw.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/tablesaw/tablesaw.js",
+      "PackagePath": "staticwebassets/manage/libs/tablesaw/tablesaw.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/x-editable/bootstrap-editable.css",
+      "PackagePath": "staticwebassets/manage/libs/x-editable/bootstrap-editable.css"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/manage/libs/x-editable/bootstrap-editable.min.js",
+      "PackagePath": "staticwebassets/manage/libs/x-editable/bootstrap-editable.min.js"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/.DS_Store",
+      "PackagePath": "staticwebassets/upload/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/02337779-e56c-4777-bdb2-8753e239a88cbesti.2jpeg.jpeg",
+      "PackagePath": "staticwebassets/upload/blogs/02337779-e56c-4777-bdb2-8753e239a88cbesti.2jpeg.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/238e5f5d-3bb7-405e-a1a4-48562bec036eblog-list-06.jpg",
+      "PackagePath": "staticwebassets/upload/blogs/238e5f5d-3bb7-405e-a1a4-48562bec036eblog-list-06.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/264a1952-1054-48ae-98d5-9343c5853a3dblog-main.jpg",
+      "PackagePath": "staticwebassets/upload/blogs/264a1952-1054-48ae-98d5-9343c5853a3dblog-main.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/2c304929-5eae-4fa3-9561-a76e8a1b1f09blog-dec-img1.jpg",
+      "PackagePath": "staticwebassets/upload/blogs/2c304929-5eae-4fa3-9561-a76e8a1b1f09blog-dec-img1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/42e800e1-41c5-4c40-97e8-4f6c36eec593blog-08.jpg",
+      "PackagePath": "staticwebassets/upload/blogs/42e800e1-41c5-4c40-97e8-4f6c36eec593blog-08.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/475beac3-e28a-4866-be75-78299953ee0cblog-list-01.jpg",
+      "PackagePath": "staticwebassets/upload/blogs/475beac3-e28a-4866-be75-78299953ee0cblog-list-01.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/4a7c6909-ebf5-41c9-8f2e-a30d755f9059gulshen.jpeg",
+      "PackagePath": "staticwebassets/upload/blogs/4a7c6909-ebf5-41c9-8f2e-a30d755f9059gulshen.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/8cf7e4f9-6344-4ebb-a6d4-eef88f5e2fdffatime.jpeg",
+      "PackagePath": "staticwebassets/upload/blogs/8cf7e4f9-6344-4ebb-a6d4-eef88f5e2fdffatime.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/b2ff76e3-2c07-4e86-a7ca-58ca47e39802blog-list-02.jpg",
+      "PackagePath": "staticwebassets/upload/blogs/b2ff76e3-2c07-4e86-a7ca-58ca47e39802blog-list-02.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/bd152cb1-84e7-42e9-b9f0-f7340badd2e3besti.2jpeg.jpeg",
+      "PackagePath": "staticwebassets/upload/blogs/bd152cb1-84e7-42e9-b9f0-f7340badd2e3besti.2jpeg.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/bd61b695-6f3b-4c18-8f2e-0baa01d87df9blog-08.jpg",
+      "PackagePath": "staticwebassets/upload/blogs/bd61b695-6f3b-4c18-8f2e-0baa01d87df9blog-08.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/blogs/e850a2c2-c5a8-4f69-a638-83752f7ede7fbesti.2jpeg.jpeg",
+      "PackagePath": "staticwebassets/upload/blogs/e850a2c2-c5a8-4f69-a638-83752f7ede7fbesti.2jpeg.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/customers/03f456db-c2f5-46cb-bc79-6b48ed9ea608gulnare.jpeg",
+      "PackagePath": "staticwebassets/upload/customers/03f456db-c2f5-46cb-bc79-6b48ed9ea608gulnare.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/customers/92d5bba7-fe45-4d9e-bc49-bee68bd88830rukush2.jpeg",
+      "PackagePath": "staticwebassets/upload/customers/92d5bba7-fe45-4d9e-bc49-bee68bd88830rukush2.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/customers/9a77b9c3-304c-4e9b-aa01-d0edb4587ea2besti.2jpeg.jpeg",
+      "PackagePath": "staticwebassets/upload/customers/9a77b9c3-304c-4e9b-aa01-d0edb4587ea2besti.2jpeg.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/customers/e4293fac-5fa3-486a-a7e1-0b376ce3689cgulshen.jpeg",
+      "PackagePath": "staticwebassets/upload/customers/e4293fac-5fa3-486a-a7e1-0b376ce3689cgulshen.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/.DS_Store",
+      "PackagePath": "staticwebassets/upload/products/.DS_Store"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/0877d54d-eb96-4c8e-96ec-225f7de0231frukush.jpeg",
+      "PackagePath": "staticwebassets/upload/products/0877d54d-eb96-4c8e-96ec-225f7de0231frukush.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/0d6dafc9-3537-4001-9228-5fb6cab6c298fatime.jpeg",
+      "PackagePath": "staticwebassets/upload/products/0d6dafc9-3537-4001-9228-5fb6cab6c298fatime.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/0d85b231-5e4a-4749-b132-118e16409d3bfur4.png",
+      "PackagePath": "staticwebassets/upload/products/0d85b231-5e4a-4749-b132-118e16409d3bfur4.png"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/1842bb3a-efd1-4e9f-873f-8b31632bdde8gulshen.jpeg",
+      "PackagePath": "staticwebassets/upload/products/1842bb3a-efd1-4e9f-873f-8b31632bdde8gulshen.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/27da2784-b250-4828-bab6-2875f8b95ad5besti.jpeg",
+      "PackagePath": "staticwebassets/upload/products/27da2784-b250-4828-bab6-2875f8b95ad5besti.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/4efe8a87-0f28-426b-9da5-f93e18a320e8rukush2.jpeg",
+      "PackagePath": "staticwebassets/upload/products/4efe8a87-0f28-426b-9da5-f93e18a320e8rukush2.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/626b0bf2-1fb1-4ca3-9797-2d85a0fe012efur3.jpg",
+      "PackagePath": "staticwebassets/upload/products/626b0bf2-1fb1-4ca3-9797-2d85a0fe012efur3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/68144a72-0aa8-428f-99d9-5c30ff3f7c78blog-main.jpg",
+      "PackagePath": "staticwebassets/upload/products/68144a72-0aa8-428f-99d9-5c30ff3f7c78blog-main.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/84963144-a4ae-460a-8147-b91ef1c1c4bdfur1.3.jpg",
+      "PackagePath": "staticwebassets/upload/products/84963144-a4ae-460a-8147-b91ef1c1c4bdfur1.3.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/b1112cd3-9865-41ee-adc5-d09ed6c93b0bgulnare.jpeg",
+      "PackagePath": "staticwebassets/upload/products/b1112cd3-9865-41ee-adc5-d09ed6c93b0bgulnare.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/bc4046a6-b628-4855-8968-40ddac83b5a1fur2.jpg",
+      "PackagePath": "staticwebassets/upload/products/bc4046a6-b628-4855-8968-40ddac83b5a1fur2.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/c4a8a35e-0883-48cf-b469-06ce52a97363gulshen.jpeg",
+      "PackagePath": "staticwebassets/upload/products/c4a8a35e-0883-48cf-b469-06ce52a97363gulshen.jpeg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/c97b1eeb-1a01-4b25-8064-63ac23bd1236fur1.1.jpg",
+      "PackagePath": "staticwebassets/upload/products/c97b1eeb-1a01-4b25-8064-63ac23bd1236fur1.1.jpg"
+    },
+    {
+      "Id": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/e57c16da-51a4-4667-97db-3eac65ea4945gulnare.jpeg",
+      "PackagePath": "staticwebassets/upload/products/e57c16da-51a4-4667-97db-3eac65ea4945gulnare.jpeg"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.Laboris.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.Laboris.props",
+      "PackagePath": "build\\Laboris.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Laboris.props",
+      "PackagePath": "buildMultiTargeting\\Laboris.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Laboris.props",
+      "PackagePath": "buildTransitive\\Laboris.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

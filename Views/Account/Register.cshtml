@@ -1,0 +1,114 @@
+﻿@model RegisterVm
+@using Laboris.ViewModels
+
+<style>
+    .footer-top {
+        display: none !important;
+    }
+
+    .umumi {
+        padding-bottom: 100px;
+    }
+
+    .login-link {
+        color: orange !important;
+        transition: color 0.1s;
+    }
+
+        .login-link:hover {
+            color: black;
+        }
+</style>
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Register</h2>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Register</li>
+            </ul>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- Register Section Start -->
+<div class="section umumi section-padding">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <!-- Login & Register Start -->
+                <div class="login-register-wrapper">
+                    <h4 class="title">Create New Account</h4>
+                    <p>
+                        Already have an account?
+                        <a asp-controller="Home" asp-action="Login" class="login-link">Log in instead!</a>
+                    </p>
+                    <form method="post">
+                        <div class="single-form">
+                            <input asp-for="FirstName" type="text" placeholder="First Name" />
+                            <span asp-validation-for="FirstName" style="color:red"></span>
+                        </div>
+
+                        <div class="single-form">
+                            <input asp-for="LastName" type="text" placeholder="Last Name" />
+                            <span asp-validation-for="LastName" style="color:red"></span>
+                        </div>
+
+
+                        <div class="single-form">
+                            <input asp-for="Email" type="text" placeholder="Email Address *" />
+                            <span asp-validation-for="Email" style="color:red"></span>
+                        </div>
+
+
+                        <div class="single-form">
+                            <input asp-for="UserName" type="text" placeholder="Username *" />
+                            <span asp-validation-for="UserName" style="color:red"></span>
+                        </div>
+
+
+                        <div class="single-form">
+                            <input asp-for="Password" type="password" placeholder="Password" />
+                            <span asp-validation-for="Password" style="color:red"></span>
+                        </div>
+
+
+                        <div class="single-form">
+                            <input asp-for="ConfirmPassword" type="password" placeholder="Confirm Password" />
+                            <span asp-validation-for="ConfirmPassword" style="color:red"></span>
+                        </div>
+
+                        <div asp-validation-summary="All" class="text-danger"></div>
+
+                        <div class="single-form">
+                            <input type="checkbox" id="receive" />
+                            <label for="receive">
+                                <span></span> Receive Offers From Our
+                                Partners
+                            </label>
+                        </div>
+                        <div class="single-form">
+                            <input type="checkbox" id="newsletter" />
+                            <label for="newsletter">
+                                <span></span> Sign Up For Our Newsletter Now!
+                                <br />
+                                For The Latest Lookbooks And Exclusive Offers.
+                            </label>
+                        </div>
+                        <div class="single-form">
+                            <button class="btn btn-primary btn-hover-dark" type="submit">
+                                Register
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Login & Register End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Register Section End -->

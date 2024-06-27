@@ -1,0 +1,44 @@
+﻿
+@model List<BlogCategory>
+
+@{
+    var count = 0;
+}
+
+<style>
+    .custom-container {
+        padding-left: 180px;
+        padding-top: 100px;
+    }
+</style>
+
+<div class="container custom-container">
+    <table class="table custom-table">
+        <a class="btn btn-primary my-3" asp-controller="BlogCategory" asp-action="Create">Create</a>
+
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(count++)</td>
+          
+                    <td>@item.Name</td>
+
+
+                    <td>
+                        <a class="btn btn-danger m-2" asp-controller="BlogCategory" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

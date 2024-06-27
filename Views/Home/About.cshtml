@@ -1,0 +1,263 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+@using Laboris.Models
+@model List<Customers>
+
+<style>
+
+    .swiper-container{
+        padding:0px 0px;
+    }
+
+    .section-padding{
+        padding-bottom:200px;
+    }
+
+    .section-padding{
+        padding-bottom:0px !important;
+    }
+
+</style>
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">About Us</h2>
+
+            <ul class="breadcrumb">
+                <li><a asp-controller="Home" asp-action="Index" class="text-light">Home</a></li>
+                <li class="active">About Us</li>
+            </ul>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- History Section Start -->
+<div class="section section-padding-02">
+    <div class="container">
+        <!-- History content End -->
+        <div class="history-content text-center">
+            <div class="section-title-03">
+                <h6 class="sub-title">Our History</h6>
+                <h2 class="title">Laboris Furniture Shop</h2>
+            </div>
+
+            <p>
+                Laboris Furniture Shop began as a small workshop in a modest garage, focusing on custom-made wooden furniture pieces.
+                The superior craftsmanship and innovative designs quickly attracted a loyal customer base, leading to steady growth.
+                The shop diversified its offerings to include residential, office, and commercial furnishings.
+                Sustainable materials and eco-friendly practices were introduced, positioning Laboris Furniture as a forward-thinking leader in the industry.
+                Investments in research and development led to the creation of ergonomic designs and multifunctional pieces, catering to evolving customer needs.
+                Laboris Furniture has always been deeply rooted in its community, supporting various local initiatives and charitable organizations.
+                The company's commitment to corporate social responsibility includes fair labor practices and environmental sustainability.
+                Continuous efforts are made to reduce the carbon footprint and promote ethical sourcing of materials.
+                Today, Laboris Furniture remains a family-owned business, blending traditional woodworking skills with cutting-edge technology to create timeless furniture pieces.
+                The shop is dedicated to maintaining its reputation for quality and innovation as it looks to the future.
+            </p>
+        </div>
+        <!-- History content End -->
+        <!-- History Icon End -->
+        <div class="history-icon text-center">
+            <img src="~/assets/images/icon/icon-5.jpg" alt="Icon" />
+        </div>
+        <!-- History Icon End -->
+    </div>
+</div>
+<!-- History Section End -->
+<!-- Images Gallery Section Start -->
+<div class="section section-padding-02">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Image Gallery Start -->
+                <div class="image-gallery">
+                    <img src="~/assets/images/images-gallery/image-1.jpg" width="770" height="290" alt="gallery" />
+                </div>
+                <!-- Image Gallery End -->
+            </div>
+            <div class="col-lg-4">
+                <!-- Image Gallery Start -->
+                <div class="image-gallery">
+                    <img src="~/assets/images/images-gallery/image-2.jpg" width="370" height="290" alt="gallery" />
+                </div>
+                <!-- Image Gallery End -->
+            </div>
+            <div class="col-lg-6">
+                <!-- Image Gallery Start -->
+                <div class="image-gallery">
+                    <img src="~/assets/images/images-gallery/image-3.jpg" height="570" height="290" alt="gallery" />
+                </div>
+                <!-- Image Gallery End -->
+            </div>
+            <div class="col-lg-6">
+                <!-- Image Gallery Start -->
+                <div class="image-gallery">
+                    <img src="~/assets/images/images-gallery/image-4.jpg" width="570" height="290" alt="gallery" />
+                </div>
+                <!-- Image Gallery End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Images Gallery Section End -->
+<!-- Counter Section Start -->
+<div class="section section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <!-- Single Counter Start -->
+                <div class="single-counter">
+                    <span class="count">
+                        <span class="odometer"
+                              data-count-to="21"></span><sub>+</sub>
+                    </span>
+                    <p>Years of Exprience</p>
+                </div>
+                <!-- Single Counter End -->
+            </div>
+            <div class="col-lg-3 col-6">
+                <!-- Single Counter Start -->
+                <div class="single-counter">
+                    <span class="count">
+                        <span class="odometer"
+                              data-count-to="30"></span><sub>K</sub>
+                    </span>
+                    <p>Happy Customers</p>
+                </div>
+                <!-- Single Counter End -->
+            </div>
+            <div class="col-lg-3 col-6">
+                <!-- Single Counter Start -->
+                <div class="single-counter">
+                    <span class="count">
+                        <span class="odometer"
+                              data-count-to="15"></span><sub>+</sub>
+                    </span>
+                    <p>Award Winner</p>
+                </div>
+                <!-- Single Counter End -->
+            </div>
+            <div class="col-lg-3 col-6">
+                <!-- Single Counter Start -->
+                <div class="single-counter">
+                    <span class="count">
+                        <span class="odometer"
+                              data-count-to="100"></span><sub>%</sub>
+                    </span>
+                    <p>Products Guranteed</p>
+                </div>
+                <!-- Single Counter End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Counter Section End -->
+
+<!-- Team Section Start -->
+<div class="section section-padding-02">
+    <div class="container">
+        <!-- Section Title Start -->
+        <div class="section-title-03 text-center">
+            <h6 class="sub-title">Our Team</h6>
+            <h2 class="title">Meet Our Team</h2>
+        </div>
+        <!-- Section Title End -->
+
+        <div class="team-wrapper">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <!-- Single Team Satrt -->
+                    <div class="single-team">
+                        <div class="team-images">
+                            <img src="~/assets/images/team/team-1.jpg" width="370" height="406" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h5 class="name">Makiyah Yeager</h5>
+                            <span class="designation">Worker</span>
+                        </div>
+                    </div>
+                    <!-- Single Team End -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!-- Single Team Satrt -->
+                    <div class="single-team">
+                        <div class="team-images">
+                            <img src="~/assets/images/team/team-2.jpg" width="370" height="406" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h5 class="name">Taelynn Thorpe</h5>
+                            <span class="designation">Adminstrator</span>
+                        </div>
+                    </div>
+                    <!-- Single Team End -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!-- Single Team Satrt -->
+                    <div class="single-team">
+                        <div class="team-images">
+                            <img src="~/assets/images/team/team-3.jpg" width="370" height="406" alt="Team" />
+                        </div>
+                        <div class="team-content">
+                            <h5 class="name">Sara Koivisto</h5>
+                            <span class="designation">Officer</span>
+                        </div>
+                    </div>
+                    <!-- Single Team End -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team Section End -->
+<!-- Brand Logo Section Start -->
+<div class="section section-padding">
+    <div class="container">
+        <div class="brand-row">
+            <div class="brand-col">
+                <!-- Single Brand Start -->
+                <div class="single-brand">
+                    <img src="~/assets/images/brand/brand-1.png" width="118" height="87" alt="brand" />
+                </div>
+                <!-- Single Brand Start -->
+            </div>
+
+            <div class="brand-col">
+                <!-- Single Brand Start -->
+                <div class="single-brand">
+                    <img src="~/assets/images/brand/brand-2.png" width="118" height="87" alt="brand" />
+                </div>
+                <!-- Single Brand Start -->
+            </div>
+
+            <div class="brand-col">
+                <!-- Single Brand Start -->
+                <div class="single-brand">
+                    <img src="~/assets/images/brand/brand-3.png" width="118" height="87" alt="brand" />
+                </div>
+                <!-- Single Brand Start -->
+            </div>
+
+            <div class="brand-col">
+                <!-- Single Brand Start -->
+                <div class="single-brand">
+                    <img src="~/assets/images/brand/brand-4.png" width="118" height="87" alt="brand" />
+                </div>
+                <!-- Single Brand Start -->
+            </div>
+
+            <div class="brand-col">
+                <!-- Single Brand Start -->
+                <div class="single-brand">
+                    <img src="~/assets/images/brand/brand-5.png" width="118" height="87" alt="brand" />
+                </div>
+                <!-- Single Brand Start -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Brand Logo Section End -->

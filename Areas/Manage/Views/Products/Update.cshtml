@@ -1,0 +1,109 @@
+﻿@using Laboris.Areas.Manage.ViewModels.Product
+@model ProductUpdateVm
+
+
+
+<div class=" container my-4 ms-auto">
+
+
+    <form method="post" enctype="multipart/form-data" class=" p-5 m-5">
+
+        <h1> Fill the blanks.</h1>
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Name</label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" style="color:red"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label">Price</label>
+            <input asp-for="Price" class="form-control">
+            <span asp-validation-for="Price" style="color:red"></span>
+        </div>
+
+
+
+        <div class="mb-3">
+            <label asp-for="OldPrice" class="form-label">Old Price (If product is in sale)</label>
+            <input asp-for="OldPrice" class="form-control">
+            <span asp-validation-for="OldPrice" style="color:red"></span>
+        </div>
+
+
+        <div class="mb-3">
+            <label asp-for="ImgFile" class="form-label">Photo</label>
+            <input asp-for="ImgFile" class="form-control">
+            <span asp-validation-for="ImgFile" style="color:red"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <input asp-for="Description" class="form-control">
+            <span asp-validation-for="Description" style="color:red"> </span>
+        </div>
+
+        <div>
+
+            <label asp-for="CategoryId" class="form-label">Categories</label>
+            <select class="form-select m-3" asp-for="CategoryId" asp-items="new SelectList(ViewBag.Categories,nameof(ProductsCategory.Id),nameof(ProductsCategory.Name))">
+                <option disabled selected>Choose Category</option>
+                <span asp-validation-for="CategoryId" style="color:red"> </span>
+            </select>
+
+        </div>
+
+
+
+
+        <label asp-for="Color" class="form-label">Colors</label>
+        <select class="form-select" asp-for="Color">
+            <option selected>Select color</option>
+            <option value="Blue">Blue</option>
+            <option value="Dark Blue">Dark Blue</option>
+            <option value="Gray">Gray</option>
+            <option value="Green">Green</option>
+            <option value="Black">Black</option>
+            <option value="Red">Red</option>
+            <span asp-validation-for="Color" style="color:red"> </span>
+
+        </select>
+
+
+
+        <label asp-for="Size" class="form-label">Sizes</label>
+        <select class="form-select" asp-for="Size">
+            <option selected>Select Size</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+            <span asp-validation-for="Size" style="color:red"> </span>
+
+        </select>
+
+        <div>
+
+            <label asp-for="TagIds" class="form-label">Tags</label>
+            <select class="form-select m-3" asp-for="TagIds" asp-items="new SelectList(ViewBag.Tags,nameof(Tag.Id),nameof(Tag.Name))">
+                <option disabled selected>Choose Tags</option>
+                <span asp-validation-for="TagIds" style="color:red"> </span>
+            </select>
+
+        </div>
+
+
+
+
+        <button asp-controller="Products" asp-action="Index" type="submit" class="btn btn-secondary">Back</button>
+        <button type="submit" class="btn btn-success">Submit</button>
+
+
+    </form>
+
+
+</div>
+
+
+

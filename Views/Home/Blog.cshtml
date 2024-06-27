@@ -1,0 +1,167 @@
+﻿@{
+    ViewData["Title"] = "Blog";
+}
+
+@using Laboris.ViewModels
+@model BlogVm
+
+
+    <style>
+        .footer-top {
+            display: none !important;
+        }
+
+      
+    </style>
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Blog</h2>
+
+            <ul class="breadcrumb">
+                <li><a asp-controller="Home" asp-action="Index" class="text-light">Home</a></li>
+                <li class="active">Blog</li>
+            </ul>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- Blog Section Start -->
+<div class="section section-padding">
+    <div class="container">
+        <!-- Blog Wrapper Start -->
+        <div class="blog-wrapper">
+            <div class="row flex-row-reverse">
+                <div class="col-lg-8">
+
+                    @foreach (var item in Model.Blogs)
+                    {
+                        <!-- Single Blog Start -->
+                        <div class="single-blog">
+                            <a href="blog-details-left-sidebar.html">
+                                <img src="~/upload/blogs/@item.PhotoUrl" alt="Blog" width=30% />
+                            </a>
+
+                            <div class="blog-content">
+                                <ul class="blog-meta">
+                                    <li>
+                                        <i class="pe-7s-user"></i>
+                                        <span> BY:<a href="#">@item.Admin</a></span>
+                                    </li>
+                                    <li><i class="pe-7s-date"></i> <span>@item.Date</span></li>
+                                </ul>
+                                <h4 class="title">
+                                    <a href="blog-details-left-sidebar.html">@item.Header</a>
+                                </h4>
+                                <p>
+                                    @item.Description
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Single Blog End -->
+                    }
+
+
+                    <!-- Page pagination Start -->
+                    <div class="page-pagination">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-left"></i></a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- Page pagination End -->
+                </div>
+                <div class="col-lg-4 pb-5">
+                    <!-- Sidebar Start -->
+                    <div class="sidebar pb-5">
+                        <!-- Sidebar Widget Start -->
+                        <div class="sidebar-widget-02">
+                            <div class="widget-search-02">
+
+                                <form asp-controller="Home" asp-action="Blog"
+                                      asp-route-categoryId="@Model.CategoryId">
+                                    <input type="text"
+                                           name="search"
+                                           value="@Model.Search"
+                                           placeholder="Search Your Article">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+
+                            </div>
+                        </div>
+                        <!-- Sidebar Widget End -->
+                        <!-- Sidebar Widget Start -->
+                        <div class="sidebar-widget-02">
+                            <h4 class="widget-title-02">Recent Post</h4>
+
+                            <div class="widget-recent-post">
+                                <div class="single-recent-post">
+                                    <ul class="blog-meta">
+                                        <li><i class="pe-7s-date"></i> <span>27 FEB 2023</span></li>
+                                    </ul>
+                                    <h5 class="title">
+                                        <a href="blog-details-left-sidebar.html">
+                                            Digital technologies are improving and growing the design
+                                            industry.
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div class="single-recent-post">
+                                    <ul class="blog-meta">
+                                        <li><i class="pe-7s-date"></i> <span>27 FEB 2023</span></li>
+                                    </ul>
+                                    <h5 class="title">
+                                        <a href="blog-details-left-sidebar.html">Interior designer Nancy, the witch of the unique space.</a>
+                                    </h5>
+                                </div>
+                                <div class="single-recent-post">
+                                    <ul class="blog-meta">
+                                        <li><i class="pe-7s-date"></i> <span>27 FEB 2023</span></li>
+                                    </ul>
+                                    <h5 class="title">
+                                        <a href="blog-details-left-sidebar.html">Decorate your home with the most modern furnishings.</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sidebar Widget End -->
+                        
+                    
+                        <!-- Sidebar Widget Start -->
+                        <div class="sidebar-widget-02 ">
+
+                            <h4 class="widget-title-02 ">Categories</h4>
+
+                            <div class="widget-archives pb-5 ">
+                                <ul class="widget-link">
+                                    @*<li>
+                                        <a asp-route-search="@Model.Search" asp-controller="Home" asp-action="Blog" asp-route-categoryId="@Model.CategoryId">
+                                            <span>All</span>
+                                        </a>
+                                    </li>*@
+
+                                    @foreach (var category in Model.Categories)
+                                    {
+                                        <li><a asp-route-search="@Model.Search" asp-controller="Home" asp-action="Blog" asp-route-categoryId="@category.Id">@category.Name</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Sidebar Widget End -->
+                       
+                    <!-- Sidebar End -->
+                </div>
+            </div>
+        </div>
+        <!-- Blog Wrapper End -->
+    </div>
+</div>
+<!-- Blog Section End -->

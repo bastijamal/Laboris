@@ -1,0 +1,83 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Manage\" />
+    <None Remove="Areas\Manage\Controllers\" />
+    <None Remove="Areas\Manage\Views\" />
+    <None Remove="Areas\Manage\Views\Dashboard\" />
+    <None Remove="Areas\Manage\Views\Shared\" />
+    <None Remove="DAL\" />
+    <None Remove="Views\Home\" />
+    <None Remove="Views\Shared\" />
+    <None Remove="Areas\Manage\Views\Blog\" />
+    <None Remove="Areas\Manage\Views\Customers\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Areas\Manage\ViewModels\" />
+    <None Remove="Areas\Manage\ViewModels\Blog\" />
+    <None Remove="Views\Account\" />
+    <None Remove="Areas\Manage\Views\BlogCategory\" />
+    <None Remove="Middlewares\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Areas\Manage\ViewModels\Product\" />
+    <None Remove="Areas\Manage\Views\Products\" />
+    <None Remove="Areas\Manage\Views\ProductsCategory\" />
+    <None Remove="Services\" />
+    <None Remove="Views\Cart\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Manage\" />
+    <Folder Include="Areas\Manage\Controllers\" />
+    <Folder Include="Areas\Manage\Views\" />
+    <Folder Include="Areas\Manage\Views\Dashboard\" />
+    <Folder Include="Areas\Manage\Views\Shared\" />
+    <Folder Include="wwwroot\manage\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Areas\Manage\Views\Blog\" />
+    <Folder Include="wwwroot\upload\" />
+    <Folder Include="wwwroot\upload\products\" />
+    <Folder Include="Areas\Manage\Views\Customers\" />
+    <Folder Include="wwwroot\upload\customers\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Areas\Manage\ViewModels\" />
+    <Folder Include="Areas\Manage\ViewModels\Blog\" />
+    <Folder Include="wwwroot\upload\blogs\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Areas\Manage\Views\BlogCategory\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Areas\Manage\ViewModels\Product\" />
+    <Folder Include="Areas\Manage\Views\Products\" />
+    <Folder Include="Areas\Manage\Views\ProductsCategory\" />
+    <Folder Include="Services\" />
+    <Folder Include="Views\Cart\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\manage\" />
+    <Content Remove="wwwroot\upload\" />
+    <Content Remove="wwwroot\upload\products\" />
+    <Content Remove="wwwroot\upload\customers\" />
+    <Content Remove="wwwroot\upload\blogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.30">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.30" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>
