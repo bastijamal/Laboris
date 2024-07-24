@@ -18,12 +18,16 @@ namespace Laboris.DAL
         public DbSet<Customers> Customers { get; set; } = null!;
         public DbSet<BlogCategory> BlogCategories { get; set; } = null!;
         public DbSet<Tag> Tags { get; set; } = null!;
+        public DbSet<ProductTag> ProductTags { get; set; } = null!;
         public DbSet<ProductsCategory> ProductsCategories { get; set; } = null!;
         public DbSet<BasketItem> BasketItems { get; set; } = null!;
+        public DbSet<WishlistItem> WishlistItems { get; set; } = null!;
         public DbSet<Order> Orders { get; set; } = null!;
-
-
        
+
+
+
+
 
 
 

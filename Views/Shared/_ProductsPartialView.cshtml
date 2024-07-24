@@ -9,7 +9,7 @@
             <!-- Single Product Start -->
             <div class="single-product-02">
                 <div class="product-images">
-                    <a href="product-details.html">
+                    <a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">
                         <img src="~/upload/products/@item.PhotoUrl" width="270" height="303"
                              alt="product" />
                     </a>
@@ -20,13 +20,13 @@
                             <a class="action" asp-action="AddBasket" asp-controller="Cart" asp-route-id="@item.Id"><i class="pe-7s-shopbag"></i></a>
                         </li>
                         <li>
-                            <a class="action" href="#"><i class="pe-7s-like"></i></a>
+                            <a class="action" asp-action="AddWishlist" asp-controller="Wishlist" asp-route-id="@item.Id"><i class="pe-7s-like"></i></a>
                         </li>
                     </ul>
 
                     @if (item.OldPrice!=null)
                     {
-                        <span class="discount">- @(item.Price*100/item.OldPrice)</span>
+                        <span class="discount">- @(item.Price*100/item.OldPrice) %</span>
                     }
 
                 </div>

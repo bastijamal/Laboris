@@ -36,6 +36,9 @@ namespace Laboris.Migrations
                     b.Property<int?>("OrderId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
@@ -127,8 +130,7 @@ namespace Laboris.Migrations
 
                     b.Property<string>("Comment")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -225,8 +227,7 @@ namespace Laboris.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<double?>("OldPrice")
                         .HasColumnType("float");
@@ -275,6 +276,10 @@ namespace Laboris.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
@@ -287,7 +292,7 @@ namespace Laboris.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("ProductTag");
+                    b.ToTable("ProductTags");
                 });
 
             modelBuilder.Entity("Laboris.Models.Tag", b =>
@@ -299,7 +304,6 @@ namespace Laboris.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -378,6 +382,38 @@ namespace Laboris.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("Laboris.Models.WishlistItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("WishlistItems");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -526,7 +562,7 @@ namespace Laboris.Migrations
                         .IsRequired();
 
                     b.HasOne("Laboris.Models.User", "User")
-                        .WithMany()
+                        .WithMany("BasketItems")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -601,6 +637,31 @@ namespace Laboris.Migrations
                     b.Navigation("Tag");
                 });
 
+            modelBuilder.Entity("Laboris.Models.WishlistItem", b =>
+                {
+                    b.HasOne("Laboris.Models.Order", "Order")
+                        .WithMany("wishlistItems")
+                        .HasForeignKey("OrderId");
+
+                    b.HasOne("Laboris.Models.Products", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Laboris.Models.User", "User")
+                        .WithMany("wishlistItems")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -660,6 +721,8 @@ namespace Laboris.Migrations
             modelBuilder.Entity("Laboris.Models.Order", b =>
                 {
                     b.Navigation("basketItems");
+
+                    b.Navigation("wishlistItems");
                 });
 
             modelBuilder.Entity("Laboris.Models.Products", b =>
@@ -681,7 +744,11 @@ namespace Laboris.Migrations
 
             modelBuilder.Entity("Laboris.Models.User", b =>
                 {
+                    b.Navigation("BasketItems");
+
                     b.Navigation("Orders");
+
+                    b.Navigation("wishlistItems");
                 });
 #pragma warning restore 612, 618
         }

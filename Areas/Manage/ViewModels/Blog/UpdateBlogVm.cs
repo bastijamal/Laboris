@@ -11,8 +11,7 @@ namespace Laboris.Areas.Manage.ViewModels.Blog
 
         public string Header { get; set; }
 
-        [MinLength(20)]
-        [MaxLength(50)]
+      
         public string Description { get; set; }
 
         public string Admin { get; set; }

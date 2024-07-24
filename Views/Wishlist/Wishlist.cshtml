@@ -1,0 +1,85 @@
+﻿@using Laboris.ViewModels
+@model List<WishlistItemVm>
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(/assets/images/banner-main/banner-3.webp)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Wishlist</h2>
+
+            <ul class="breadcrumb">
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="active">Wishlist</li>
+            </ul>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+<!-- Shopping Cart Section Start -->
+<div class="section section-padding pb-5 mb-5">
+    <div class="container pb-5">
+        <div class="cart-wrapper">
+            <!-- Cart Wrapper Start -->
+            <div class="cart-table table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="product-thumb">Image</th>
+                            <th class="product-info">
+                                Product Information
+                            </th>
+
+                            <th class="product-add-to-cart">
+                                Add to Cart
+                            </th>
+                            <th class="product-action">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                            {
+                            @foreach (var item in Model)
+                                {
+                                <tr>
+                                    <td class="product-thumb">
+                                        <img src="~/upload/products/@item.PhotoUrl" alt="" />
+                                    </td>
+                                    <td class="product-info">
+                                        <h6 class="name">
+                                            <a href="product-details.html">@item.Name</a>
+                                        </h6>
+                                        <div class="product-prices">
+                                            @*<span class="old-price">$@item.</span>*@
+                                            <span class="sale-price">$@item.Price</span>
+                                        </div>
+                                        <div class="product-size-color">
+                                            <p>Size: <span>@item.Size</span></p>
+                                            <p>Color: <span>@item.Color</span></p>
+                                        </div>
+                                    </td>
+
+                                    <td class="product-add-to-cart">
+                                        <a asp-controller="Cart" asp-action="AddBasket" asp-route-id="@item.Id" class="btn btn-dark btn-hover-primary">Add to Cart</a>
+                                    </td>
+                                    <td class="product-action">
+                                        <form method="post" asp-controller="Wishlist" asp-action="RemoveItem" asp-route-id="@item.Id">
+                                            <button type="submit" class="remove">
+                                                <i class="pe-7s-trash"></i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                                }
+
+                            }
+
+                        </tbody>
+                </table>
+            </div>
+            <!-- Cart Wrapper End -->
+        </div>
+    </div>
+</div>
+<!-- Shopping Cart Section End -->

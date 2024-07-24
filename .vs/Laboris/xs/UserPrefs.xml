@@ -1,25 +1,52 @@
 ﻿<Properties StartupConfiguration="{D826EE9B-17CE-4B86-A43F-13FAD64EE43C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
+    <Files>
+      <File FileName="Views/Shared/_Layout.cshtml" Line="144" Column="104" />
+      <File FileName="Views/Account/Register.cshtml" Line="48" Column="51" />
+      <File FileName="Views/Cart/Index.cshtml" Line="92" Column="15" />
+      <File FileName="Controllers/CartController.cs" Line="227" Column="1" />
+      <File FileName="Views/Wishlist/Wishlist.cshtml" Line="78" Column="33" />
+      <File FileName="Controllers/WishlistController.cs" Line="16" Column="49" />
+      <File FileName="appsettings.json" Line="25" Column="34" />
+      <File FileName="DAL/StripeSettings.cs" Line="6" Column="37" />
+      <File FileName="Program.cs" Line="24" Column="54" />
+      <File FileName="Controllers/HomeController.cs" Line="381" Column="45" />
+      <File FileName="Views/Home/CheckOut.cshtml" Line="1" Column="1" />
+      <File FileName="Services/MailService.cs" Line="46" Column="21" />
+      <File FileName="ViewModels/MailRequestVm.cs" Line="19" Column="32" />
+      <File FileName="ViewModels/ContactVm.cs" Line="11" Column="49" />
+      <File FileName="Views/Home/Contact.cshtml" Line="108" Column="80" />
+      <File FileName="Abstractions/MailService/MailService.cs" Line="8" Column="14" />
+      <File FileName="Services/EmailService.cs" Line="36" Column="9" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Laboris" expanded="True">
+          <Node name="Laboris">
             <Node name="Laboris">
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
+              <Node name="Abstractions" expanded="True">
+                <Node name="MailService" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Cart" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Wishlist" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Laboris PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Laboris PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

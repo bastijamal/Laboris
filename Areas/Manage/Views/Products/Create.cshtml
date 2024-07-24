@@ -42,23 +42,23 @@
         </div>
 
 
-        <label asp-for="Color" class="form-label">Colors</label>
-        <select class="form-select" asp-for="Color">
+        <label asp-for="Color" class="form-label m-2">Colors</label>
+        <select class="form-select p-1" asp-for="Color">
             <option selected>Select color</option>
             <option value="Blue">Blue</option>
-            <option value="Dark Blue">Dark Blue</option>
             <option value="Gray">Gray</option>
             <option value="Green">Green</option>
             <option value="Black">Black</option>
             <option value="Red">Red</option>
+            <option value="Brown">Brown</option>
             <span asp-validation-for="Size" style="color:red"> </span>
 
         </select>
 
 
 
-        <label asp-for="Size" class="form-label">Sizes</label>
-        <select class="form-select" asp-for="Size">
+        <label asp-for="Size" class="form-label m-2">Sizes</label>
+        <select class="form-select p-1" asp-for="Size">
             <option selected>Select Size</option>
             <option value="S">S</option>
             <option value="M">M</option>
@@ -74,7 +74,7 @@
         <div>
 
             <label asp-for="CategoryId" class="form-label">Categories</label>
-            <select class="form-select m-3" asp-for="CategoryId" asp-items="new SelectList(ViewBag.Categories,nameof(ProductsCategory.Id),nameof(ProductsCategory.Name))">
+            <select class="form-select m-3 p-1" asp-for="CategoryId" asp-items="new SelectList(ViewBag.Categories,nameof(ProductsCategory.Id),nameof(ProductsCategory.Name))">
                 <option disabled selected>Choose Category</option>
                 <span asp-validation-for="CategoryId" style="color:red"> </span>
             </select>
@@ -84,7 +84,7 @@
         <div>
 
             <label asp-for="TagIds" class="form-label">Tags</label>
-            <select class="form-select m-3" asp-for="TagIds" asp-items="new SelectList(ViewBag.Tags,nameof(Tag.Id),nameof(Tag.Name))">
+            <select class="form-select m-3 pl-2 pr-2 pb-3 pt-1" asp-for="TagIds" asp-items="new SelectList(ViewBag.Tags,nameof(Tag.Id),nameof(Tag.Name))">
                 <option disabled selected>Choose Tags</option>
                 <span asp-validation-for="TagIds" style="color:red"> </span>
             </select>
@@ -93,6 +93,7 @@
 
 
 
+        <div asp-validation-summary="All" style="color:red"></div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
 

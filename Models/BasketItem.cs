@@ -15,11 +15,15 @@ namespace Laboris.Models
 
 		public int ProductId { get; set; }
 
+
         public int Count { get; set; } = 1;
 
-        //
+		public int Price { get; set; }
 
-        public Order? Order { get; set; }
+		//
+
+		public Order? Order { get; set; }
+
 		public int? OrderId { get; set; }
 
 

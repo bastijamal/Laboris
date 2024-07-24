@@ -1,0 +1,584 @@
+﻿@model Products
+
+<!-- Page Banner Section Start -->
+<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+    <div class="container">
+        <!-- Page Banner Content End -->
+        <div class="page-banner-content">
+            <h2 class="title">Product Details</h2>
+
+            <ul class="breadcrumb">
+                <li><a class="text-light" asp-action="Index" asp-controller="Home">Home</a></li>
+                <li class="active">Product Details</li>
+            </ul>
+        </div>
+        <!-- Page Banner Content End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
+
+        <!-- Product Details Section Start -->
+        <div class="section section-padding-02">
+            <div class="container">
+                <!-- Product Section Wrapper Start -->
+                <div class="product-section-wrapper">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- Product Details Images Start -->
+                            <div class="product-details-images">
+                                <!-- Details Gallery Images Start -->
+                                <div class="details-gallery-images">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            
+                                                <img src="~/upload/products/@Model.PhotoUrl" width="500px" />
+                                             
+
+                                            </div>
+                                    </div>
+                                </div>
+                                <!-- Details Gallery Images End -->
+
+                            </div>
+                            <!-- Product Details Images End -->
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- Product Details Description Start -->
+                            <div class="product-details-description">
+                                <h4 class="product-name">
+                                    @Model.Name
+                                </h4>
+                                <div class="price">
+                                    <span class="sale-price">$@Model.Price</span>
+                                    @if (Model.OldPrice > 0)
+                                        {
+                                        <span class="old-price">$@Model.OldPrice</span>
+                                        }
+                                </div>
+                                <div class="review-wrapper">
+                                    <div class="review-star">
+                                        <div class="star" style="width: 80%"></div>
+                                    </div>
+
+                                </div>
+
+                                <p>
+                                    @Model.Description
+                                </p>
+
+                                <div class="product-meta">
+                                    <div class="meta-action">
+                                        <a asp-action="AddWishlist" asp-controller="Wishlist" asp-route-id="@Model.Id" class="btn btn-dark btn-hover-primary">Buy Now</a>
+                                    </div>
+                                </div>
+
+                                <div class="product-info">
+                                    <div class="single-info">
+                                        <span class="lable">Guaranteed safe checkout:</span>
+                                        <span class="value">
+                                            <img src="~/assets/images/payment.png"
+                                                 alt="Payment" />
+                                        </span>
+                                    </div>
+                                    <div class="single-info">
+                                        <span class="lable">Categories:</span>
+                                        <span class="value">
+                                            <a href="">@Model.Category.Name</a>
+
+                                        </span>
+                                    </div>
+                                    @*<div class="single-info">
+                                        <span class="lable">Tag:</span>
+                                        <span class="value"><a href="#">@Model.ProductTags.</a></span>
+                                    </div>*@
+                                    <div class="single-info">
+                                        <span class="lable">Share:</span>
+                                        <ul class="social">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-dribbble"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-pinterest-p"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product Details Description End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Section Wrapper End -->
+            </div>
+        </div>
+        <!-- Product Details Section End -->
+
+        <!-- Product Details tab Section Start -->
+        <div class="section section-padding-02">
+            <div class="container">
+                <!-- Product Details Tabs Start -->
+                <div class="product-details-tabs">
+                    <ul class="nav justify-content-center">
+                        <li>
+                            <button data-bs-toggle="tab" data-bs-target="#information">
+                                Information
+                            </button>
+                        </li>
+                        <li>
+                            <button class="active" data-bs-toggle="tab" data-bs-target="#description">
+                                Description
+                            </button>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade" id="information">
+                            <!-- Information Content Start -->
+                            <div class="information-content">
+                                <h4 class="title">Information</h4>
+                                <p>
+                                   @Model.Description
+                                </p>
+
+                                <h4 class="title">Fabric & care</h4>
+                                <ul>
+                                    <li>Faux suede fabric</li>
+                                    <li>Gold tone metal hoop handles.</li>
+                                    <li>RI branding</li>
+                                    <li>Snake print trim interior</li>
+                                    <li>Adjustable cross body strap</li>
+                                    <li>
+                                        Height: 31cm; Width: 32cm; Depth: 12cm; Handle
+                                        Drop: 61cm
+                                    </li>
+                                </ul>
+
+                                <h4 class="title">Size</h4>
+                                <p>@Model.Size</p>
+                            </div>
+                            <!-- Information Content End -->
+                        </div>
+                        <div class="tab-pane fade show active" id="description">
+                            <!-- Description Content Start -->
+                            <div class="description-content">
+                                <p>
+                                    @Model.Description
+                                </p>
+                            </div>
+                            <!-- Description Content End -->
+                        </div>
+
+
+                    </div>
+                    <!-- Reviews Content End -->
+                </div>
+            </div>
+        </div>
+        <!-- Product Details Tabs End -->
+
+
+    <!-- Product Details tab Section End -->
+    <!-- Sale Product Section Start -->
+    <!--<div class="section section-padding">
+        <div class="container">
+            <div class="">-->
+                <!-- Product Wrapper Start -->
+                <!--<div class="product-active-02">-->
+                    <!-- Product Top Wrapper Start -->
+                    <!--<div class="product-top-wrapper">-->
+                        <!-- Section Title Start -->
+                        <!--<div class="section-title">
+                            <h2 class="title"># Related Products</h2>
+                        </div>-->
+                        <!-- Section Title End -->
+                        <!-- Product Menu Start -->
+                        <!--<div class="product-menu">
+                            <ul class="nav">
+                                <li>
+                                    <button class="active" data-bs-toggle="tab" data-bs-target="#tab7">
+                                        All Time
+                                    </button>
+                                </li>
+                                <li>
+                                    <button data-bs-toggle="tab" data-bs-target="#tab8">
+                                        This Year
+                                    </button>
+                                </li>
+                                <li>
+                                    <button data-bs-toggle="tab" data-bs-target="#tab9">
+                                        This Month
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>-->
+                        <!-- Product Menu End -->
+                        <!-- Swiper Arrows End -->
+                        <!--<div class="swiper-arrows">-->
+                            <!-- Add Arrows -->
+                            <!--<div class="swiper-button-prev">
+                                <i class="pe-7s-angle-left"></i>
+                            </div>
+                            <div class="swiper-button-next">
+                                <i class="pe-7s-angle-right"></i>
+                            </div>
+                        </div>-->
+                        <!-- Swiper Arrows End -->
+                    <!--</div>-->
+                    <!-- Product Top Wrapper End -->
+                    <!-- Product Tabs Content Start -->
+                    <!--<div class="product-tabs-content">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="tab7">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-07.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">Wooden decorations</a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab8">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-01.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">
+                                                            Elona bedside grey
+                                                            table
+                                                        </a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-02.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">Simple minimal Chair</a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-03.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">
+                                                            Pendant Chandelier
+                                                            Light
+                                                        </a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-04.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">
+                                                            High quality vase
+                                                            bottle
+                                                        </a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab9">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-04.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">
+                                                            High quality vase
+                                                            bottle
+                                                        </a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-03.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">
+                                                            Pendant Chandelier
+                                                            Light
+                                                        </a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-01.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">
+                                                            Elona bedside grey
+                                                            table
+                                                        </a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                        <div class="swiper-slide">-->
+                                            <!-- Single Product Start -->
+                                            <!--<div class="single-product">
+                                                <a href="#"><img src="~/assets/images/product/product-10.jpg" width="270" height="303" alt="product" /></a>
+                                                <div class="product-content">
+                                                    <h4 class="title">
+                                                        <a href="product-details.html">Round Swivel Chair</a>
+                                                    </h4>
+                                                    <div class="price">
+                                                        <span class="sale-price">$240.00</span>
+                                                    </div>
+                                                </div>
+                                                <ul class="product-meta">
+                                                    <li>
+                                                        <a class="action" data-bs-toggle="modal" data-bs-target="#quickView" href="#">
+                                                            <i class="pe-7s-search"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-shopbag"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="action" href="#">
+                                                            <i class="pe-7s-like"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                            <!-- Single Product End -->
+                                        <!--</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- Product Tabs Content End -->
+                <!--</div>-->
+                <!-- Product Wrapper End -->
+            <!--</div>
+        </div>
+    </div>-->
+    <!-- Sale Product Section End -->

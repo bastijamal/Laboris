@@ -1,4 +1,4 @@
-﻿@model Contact
+﻿@model Laboris.ViewModels.ContactVm
 
 @{
     ViewData["Title"] = "Contact";
@@ -16,7 +16,7 @@
 
 
 <!-- Page Banner Section Start -->
-<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+<div class="section page-banner-section" style="background-image: url(/assets/images/banner-main/banner.webp)">
     <div class="container">
         <!-- Page Banner Content End -->
         <div class="page-banner-content">
@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="info-content">
                                     <p>
-                                        <a href="mailto:basthicamalova@mail.ru" class="text-dark text-muted">basthicamalova@mail.ru</a>
+                                        <a href="mailto:personal78acc@gmail.com" class="text-dark text-muted">laborisfurniture@mail.ru</a>
                                     </p>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                                 <a href="#"><i class="fa fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/camalova.78/"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
                             </li>
                         </ul>
                         <!-- Contact Social End -->
@@ -101,31 +101,31 @@
                 <div class="col-lg-8 ">
                     <!-- Contact Form Start  -->
                     <div class="contact-form">
-                        <form id="contact-form" action="https://htmldemo.net/furbar-1/furbar/assets/php/contact.php" method="post">
+                        <form asp-action="Contact" method="post">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single-form">
-                                        <input type="text" name="name" asp-for="Name" placeholder="Name*" />
+                                        <input type="text" name="name" required asp-for="Name" placeholder="Name*" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-form">
-                                        <input type="email" name="email" asp-for="Email" placeholder="Email*" />
+                                        <input type="email" name="email" required asp-for="Email" placeholder="Email*" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-form">
-                                        <input type="text" name="subject" asp-for="Subject" placeholder="Subject" />
+                                        <input type="text" name="subject" required asp-for="Subject" placeholder="Subject" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-form">
-                                        <input type="text" name="phone" asp-for="Phone" placeholder="Phone No" />
+                                        <input type="text" name="phone" required asp-for="PhoneNumber" placeholder="Phone No" />
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="single-form">
-                                        <textarea name="message" asp-for="Comment" placeholder="Write your comments here"></textarea>
+                                        <textarea name="message" asp-for="Message" required placeholder="Write your comments here"></textarea>
                                     </div>
                                 </div>
                                 <p class="form-message"></p>
@@ -148,12 +148,7 @@
 </div>
 <!-- Contact Section End -->
 <!-- Contact Map Start -->
-
 <div class="contact-map">
     <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=41+8+Noyabr+Prospekti,+Bakı&t=&z=17&ie=UTF8&iwloc=&output=embed"></iframe>
 </div>
-
-
-
-
 <!-- Contact Map End -->

@@ -10,8 +10,6 @@ namespace Laboris.Models
         
         public int Id { get; set; }
 
-        [MinLength(5)]
-        [MaxLength(20)]
         public string Name { get; set; }
 
         public double Price { get; set; }
@@ -32,14 +30,13 @@ namespace Laboris.Models
         public IFormFile ImgFile { get; set; }
 
 
-        public ICollection<ProductTag> ProductTags { get; set; } = new List<ProductTag>();
+        public ICollection<ProductTag>? ProductTags { get; set; } 
 
         public ProductsCategory? Category { get; set; }
 
         public List<ProductImages>? ProductImages { get; set; }
 
         public int? CategoryId { get; set; }
-
 
     }
 }

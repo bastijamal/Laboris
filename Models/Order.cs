@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Laboris.Models
@@ -24,6 +24,7 @@ namespace Laboris.Models
 
 
 		public List<BasketItem> basketItems { get; set; } = new();
-	}
+        public List<WishlistItem> wishlistItems { get; set; } = new();
+    }
 }
 

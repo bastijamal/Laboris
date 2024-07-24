@@ -122,7 +122,7 @@ namespace Laboris.Areas.Manage.Controllers
             };
 
 
-            return View(blogs);
+            return View(updateBlog);
 
         }
 

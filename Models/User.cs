@@ -12,4 +12,8 @@ public class User:IdentityUser
     //
 
     public List<Order> Orders { get; set; }
+
+    public List<BasketItem> BasketItems { get; set; }
+    public List<WishlistItem> wishlistItems { get; set; }
+
 }

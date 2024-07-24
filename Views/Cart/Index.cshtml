@@ -5,7 +5,7 @@
     double total = 0;
 }
 <!-- Page Banner Section Start -->
-<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+<div class="section page-banner-section" style="background-image: url(/assets/images/banner-main/banner-4.webp)">
     <div class="container">
         <!-- Page Banner Content End -->
         <div class="page-banner-content">
@@ -30,61 +30,51 @@
                     <thead>
                         <tr>
                             <th class="product-thumb">Image</th>
-                            <th class="product-info">
-                                Product Information
-                            </th>
+                            <th class="product-info">Product Information</th>
                             <th class="product-quantity">Quantity</th>
-                            <th class="product-total-price">
-                                Total Price
-                            </th>
+                            <th class="product-total-price">Total Price</th>
                             <th class="product-action">Action</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var item in Model)
-                            {
-
-                                total += item.Count * item.Price;
+                        {
+                            total += item.Count * item.Price;
                             <tr>
                                 <td class="product-thumb">
                                     <img src="~/upload/products/@item.PhotoUrl" alt="" />
                                 </td>
                                 <td class="product-info">
                                     <h6 class="name">
-                                        <a href="product-details.html">@item.Name</a>
+                                        <a >@item.Name</a>
                                     </h6>
                                     <div class="product-prices">
                                         <span class="sale-price">$@item.Price</span>
                                     </div>
-
                                     <div class="product-size-color">
-                                        <p>Size <span>@item.Size</span></p>
-                                        <p>Color <span>@item.Color</span></p>
+                                        <p>Size: <span>@item.Size</span></p>
+                                        <p>Color: <span>@item.Color</span></p>
                                     </div>
                                 </td>
                                 <td class="quantity">
                                     <div class="product-quantity d-inline-flex">
-                                        <button type="button" class="sub">
-                                            -
-                                        </button>
-                                        <input type="text" value="1" />
-                                        <button type="button" class="add">
-                                            +
-                                        </button>
+                                        <button type="button" class="sub">-</button>
+                                        <input type="text" value="@item.Count" />
+                                        <button type="button" class="add">+</button>
                                     </div>
                                 </td>
                                 <td class="product-total-price">
                                     <span class="price">$@(item.Count * item.Price)</span>
                                 </td>
-
                                 <td class="product-action">
-                                    <button class="remove">
-                                        <i class="pe-7s-trash"></i>
-                                    </button>
+                                    <form method="post" asp-controller="Cart" asp-action="RemoveItem" asp-route-id="@item.Id">
+                                        <button type="submit" class="remove">
+                                            <i class="pe-7s-trash"></i>
+                                        </button>
+                                    </form>
                                 </td>
                             </tr>
                         }
-
                     </tbody>
                 </table>
             </div>
@@ -95,8 +85,7 @@
                     <a asp-action="AllProducts" asp-controller="Home" class="btn btn-dark btn-hover-primary">Continue Shopping</a>
                 </div>
                 <div class="right-btn">
-                    <a href="#" class="btn btn-outline-dark">Clear Cart</a>
-                    @*<a href="#" class="btn btn-outline-dark">Update Cart</a>*@
+                    <a asp-action="ClearCart" asp-controller="Cart" class="btn btn-outline-dark">Clear Cart</a>
                 </div>
             </div>
             <!-- Cart btn Start -->
@@ -115,55 +104,26 @@
                             <div class="single-select2">
                                 <div class="form-select2">
                                     <select class="select2">
-                                        <option value="0">
-                                            Select a city…
-                                        </option>
-                                        <option value="1">
-                                            Bakı
-                                        </option>
-                                        <option value="2">
-                                            Sumqayıt
-                                        </option>
-                                        <option value="3">
-                                            Gəncə
-                                        </option>
-                                        <option value="4">
-                                            Naxçıvan
-                                        </option>
-                                       
+                                        <option value="0">Select a city…</option>
+                                        <option value="1">Bakı</option>
+                                        <option value="2">Sumqayıt</option>
+                                        <option value="3">Gəncə</option>
+                                        <option value="4">Naxçıvan</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="single-select2">
                                 <div class="form-select2">
                                     <select class="select2">
-                                        <option value="">
-                                            Select a District…
-                                        </option>
-                                        <option value="BGD">
-                                            Xətai
-                                        </option>
-                                        <option value="NER">
-                                            Nərimanov
-                                        </option>
-                                        <option value="NZM">
-                                            Nizami
-                                        </option>
-                                        <option value="NSM">
-                                            Nəsimi
-                                        </option>
-                                        <option value="XET">
-                                            Binəqədi
-                                        </option>
-                                        <option value="XEZ">
-                                            Xəzər
-                                        </option>
-                                        <option value="XRD">
-                                            Xırdalan
-                                        </option>
-                                        <option value="YSM">
-                                            Yasamal
-                                        </option>
+                                        <option value="">Select a District…</option>
+                                        <option value="BGD">Xətai</option>
+                                        <option value="NER">Nərimanov</option>
+                                        <option value="NZM">Nizami</option>
+                                        <option value="NSM">Nəsimi</option>
+                                        <option value="XET">Binəqədi</option>
+                                        <option value="XEZ">Xəzər</option>
+                                        <option value="XRD">Xırdalan</option>
+                                        <option value="YSM">Yasamal</option>
                                     </select>
                                 </div>
                             </div>
@@ -171,20 +131,14 @@
                                 <input class="form-control" type="text" placeholder="Postcode/zip" />
                             </div>
                             <div class="single-form">
-                                <button class="btn btn-dark btn-hover-primary">
-                                    Update totals
-                                </button>
+                                <button class="btn btn-dark btn-hover-primary">Update totals</button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <!-- Cart Shipping End -->
             </div>
-
-            <div class=" col-lg-2">
-
-            </div>
-
+            <div class="col-lg-2"></div>
             <div class="col-lg-5">
                 <!-- Cart Totals Start -->
                 <div class="cart-totals">
@@ -194,38 +148,26 @@
                     <div class="cart-total-table">
                         <table class="table">
                             <tbody>
-                                
                                 <tr>
-                                    <td>
-                                        <p class="value">Shipping</p>
-                                    </td>
+                                    <td><p class="value">Shipping</p></td>
                                     <td>
                                         <ul class="shipping-list">
-                                           
                                             <li class="radio">
                                                 <input type="radio" name="shipping" id="radio2" />
                                                 <label for="radio2">
-                                                    <span></span> Free
-                                                    Shipping
+                                                    <span></span> Free Shipping
                                                 </label>
                                             </li>
                                             <li class="radio">
                                                 <input type="radio" name="shipping" id="radio3" />
-                                                <label for="radio3">
-                                                    <span></span> Local
-                                                    Pickup (+$15)
-                                                </label>
+                                               
                                             </li>
                                         </ul>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        <p class="value">Total</p>
-                                    </td>
-                                    <td>
-                                        <p class="price">$ @total </p>
-                                    </td>
+                                    <td><p class="value">Total</p></td>
+                                    <td><p class="price">$ @total </p></td>
                                 </tr>
                             </tbody>
                         </table>

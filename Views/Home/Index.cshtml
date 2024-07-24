@@ -1,6 +1,8 @@
 ﻿@using Laboris.Models
 @model List<Products>
 
+
+
 <!-- Slider Section Start -->
 <div class="section slider-section-02">
     <div class="slider-active">
@@ -22,7 +24,7 @@
                                 Our Shop, 30% Offer All Stylish Kitchen
                                 Furniture
                             </p>
-                            <a href="shop-grid-4-column.html"
+                            <a asp-action="AllProducts" asp-controller="Home"
                                class="btn btn-primary btn-hover-dark btn-margin">purchase now</a>
                         </div>
                         <!-- Slider Content End -->
@@ -45,7 +47,7 @@
                                 Our Shop, 30% Offer All Stylish Kitchen
                                 Furniture
                             </p>
-                            <a href="shop-grid-4-column.html"
+                            <a asp-action="AllProducts" asp-controller="Home"
                                class="btn btn-primary btn-hover-dark btn-margin">purchase now</a>
                         </div>
                         <!-- Slider Content End -->
@@ -153,296 +155,24 @@
             <div class="product-tabs-content">
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="tab1">
- 
-                        @await Html.PartialAsync("_ProductsPartialView",Model.OrderByDescending(p=>p.Id).Take(4).ToList())
 
+                        @await Html.PartialAsync("_ProductsPartialView", Model.OrderByDescending(p => p.Id).Skip(8).Take(8).ToList())
 
                     </div>
+
+
+                   
+
                     <div class="tab-pane fade" id="tab2">
                         <div class="row">
-                            <div class="col-lg-3 col-sm-6">
-                                <!-- Single Product Start -->
-                                <div class="single-product-02">
-                                    <div class="product-images">
-                                        <a href="product-details.html">
-                                            <img src="~/assets/images/product/product-09.jpg" width="270" height="303"
-                                                 alt="product" />
-                                        </a>
 
-                                        <ul class="product-meta">
-                                            <li>
-                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView"
-                                                   href="#"><i class="pe-7s-search"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-like"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="product-content">
-                                        <h4 class="title">
-                                            <a href="product-details.html">Reece Seater Sofa</a>
-                                        </h4>
-                                        <div class="price">
-                                            <span class="sale-price">$40.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Product End -->
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <!-- Single Product Start -->
-                                <div class="single-product-02">
-                                    <div class="product-images">
-                                        <a href="product-details.html">
-                                            <img src="~/assets/images/product/product-10.jpg" width="270" height="303"
-                                                 alt="product" />
-                                        </a>
 
-                                        <ul class="product-meta">
-                                            <li>
-                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView"
-                                                   href="#"><i class="pe-7s-search"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-like"></i></a>
-                                            </li>
-                                        </ul>
-
-                                        <span class="discount">-50%</span>
-                                    </div>
-                                    <div class="product-content">
-                                        <h4 class="title">
-                                            <a href="product-details.html">Round Swivel Chair</a>
-                                        </h4>
-                                        <div class="price">
-                                            <span class="sale-price">$20.00</span>
-                                            <span class="old-price">$40.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Product End -->
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <!-- Single Product Start -->
-                                <div class="single-product-02">
-                                    <div class="product-images">
-                                        <a href="product-details.html">
-                                            <img src="~/assets/images/product/product-11.jpg" width="270" height="303"
-                                                 alt="product" />
-                                        </a>
-
-                                        <ul class="product-meta">
-                                            <li>
-                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView"
-                                                   href="#"><i class="pe-7s-search"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-like"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="product-content">
-                                        <h4 class="title">
-                                            <a href="product-details.html">
-                                                Lace Bar Stool
-                                            </a>
-                                        </h4>
-                                        <div class="price">
-                                            <span class="sale-price">$40.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Product End -->
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <!-- Single Product Start -->
-                                <div class="single-product-02">
-                                    <div class="product-images">
-                                        <a href="product-details.html">
-                                            <img src="~/assets/images/product/product-12.jpg" width="270" height="303"
-                                                 alt="product" />
-                                        </a>
-
-                                        <ul class="product-meta">
-                                            <li>
-                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView"
-                                                   href="#"><i class="pe-7s-search"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-like"></i></a>
-                                            </li>
-                                        </ul>
-
-                                        <span class="discount">-50%</span>
-                                    </div>
-                                    <div class="product-content">
-                                        <h4 class="title">
-                                            <a href="product-details.html">Modern Accent Chair</a>
-                                        </h4>
-                                        <div class="price">
-                                            <span class="sale-price">$20.00</span>
-                                            <span class="old-price">$40.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Product End -->
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <!-- Single Product Start -->
-                                <div class="single-product-02">
-                                    <div class="product-images">
-                                        <a href="product-details.html">
-                                            <img src="~/assets/images/product/product-08.jpg" width="270" height="303"
-                                                 alt="product" />
-                                        </a>
-
-                                        <ul class="product-meta">
-                                            <li>
-                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView"
-                                                   href="#"><i class="pe-7s-search"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-like"></i></a>
-                                            </li>
-                                        </ul>
-
-                                        <span class="discount">-50%</span>
-                                    </div>
-                                    <div class="product-content">
-                                        <h4 class="title">
-                                            <a href="product-details.html">Herman Seater Sofa</a>
-                                        </h4>
-                                        <div class="price">
-                                            <span class="sale-price">$20.00</span>
-                                            <span class="old-price">$40.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Product End -->
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <!-- Single Product Start -->
-                                <div class="single-product-02">
-                                    <div class="product-images">
-                                        <a href="product-details.html">
-                                            <img src="~/assets/images/product/product-06.jpg" width="270" height="303"
-                                                 alt="product" />
-                                        </a>
-
-                                        <ul class="product-meta">
-                                            <li>
-                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView"
-                                                   href="#"><i class="pe-7s-search"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-like"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="product-content">
-                                        <h4 class="title">
-                                            <a href="product-details.html">
-                                                Herman Arm Grey
-                                                Chair
-                                            </a>
-                                        </h4>
-                                        <div class="price">
-                                            <span class="sale-price">$40.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Product End -->
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <!-- Single Product Start -->
-                                <div class="single-product-02">
-                                    <div class="product-images">
-                                        <a href="product-details.html">
-                                            <img src="~/assets/images/product/product-07.jpg" width="270" height="303"
-                                                 alt="product" />
-                                        </a>
-
-                                        <ul class="product-meta">
-                                            <li>
-                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView"
-                                                   href="#"><i class="pe-7s-search"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-like"></i></a>
-                                            </li>
-                                        </ul>
-
-                                        <span class="discount">-50%</span>
-                                    </div>
-                                    <div class="product-content">
-                                        <h4 class="title">
-                                            <a href="product-details.html">Wooden decorations</a>
-                                        </h4>
-                                        <div class="price">
-                                            <span class="sale-price">$20.00</span>
-                                            <span class="old-price">$40.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Product End -->
-                            </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <!-- Single Product Start -->
-                                <div class="single-product-02">
-                                    <div class="product-images">
-                                        <a href="product-details.html">
-                                            <img src="~/assets/images/product/product-02.jpg" width="270" height="303"
-                                                 alt="product" />
-                                        </a>
-
-                                        <ul class="product-meta">
-                                            <li>
-                                                <a class="action" data-bs-toggle="modal" data-bs-target="#quickView"
-                                                   href="#"><i class="pe-7s-search"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
-                                            </li>
-                                            <li>
-                                                <a class="action" href="#"><i class="pe-7s-like"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="product-content">
-                                        <h4 class="title">
-                                            <a href="product-details.html">Simple minimal Chair</a>
-                                        </h4>
-                                        <div class="price">
-                                            <span class="sale-price">$40.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Product End -->
-                            </div>
+                            @await Html.PartialAsync("_ProductsPartialView", Model.OrderByDescending(p => p.Id).Take(8).ToList())
                         </div>
+
+
                     </div>
+
                     <div class="tab-pane fade" id="tab3">
                         <div class="row">
                             <div class="col-lg-3 col-sm-6">
@@ -1338,7 +1068,7 @@
                                 Furniture
                             </a>
                         </h3>
-                        <a class="btn btn-primary btn-hover-dark" href="shop-grid-left-sidebar.html">Shop Now</a>
+                        <a class="btn btn-primary btn-hover-dark" asp-action="AllProducts" asp-controller="Home">Shop Now</a>
                     </div>
                 </div>
                 <!-- Single Banner End -->
@@ -1356,7 +1086,7 @@
                                 Furniture
                             </a>
                         </h3>
-                        <a class="btn btn-primary btn-hover-dark" href="shop-grid-left-sidebar.html">Shop Now</a>
+                        <a class="btn btn-primary btn-hover-dark" asp-action="AllProducts" asp-controller="Home">Shop Now</a>
                     </div>
                 </div>
                 <!-- Single Banner End -->
@@ -1406,7 +1136,7 @@
                             </div>
                         </div>
 
-                        <a href="#" class="btn btn-primary btn-hover-dark">Shop Now</a>
+                        <a asp-action="AllProducts" asp-controller="Home" asp-route-categoryId="2" class="btn btn-primary btn-hover-dark">Shop Now</a>
                     </div>
                     <!-- Countdown Content End -->
                 </div>
@@ -1482,13 +1212,13 @@
                         <div class="tab-pane fade show active" id="tab7">
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
-            
 
-                                        @await Html.PartialAsync("_ProductsPartialView", Model.OrderByDescending(p => p.Id).Take(4).ToList())
 
-                                    
+                                    @await Html.PartialAsync("_ProductsPartialView", Model.OrderByDescending(p => p.Id).Take(4).ToList())
 
-                                  
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -1836,7 +1566,7 @@
 
                 <div class="pointer-box">
                     <h4 class="name">
-                        <a href="#">Products Name Here</a>
+                        <a href="#">Shelf</a>
                     </h4>
                     <span class="price">$40.00</span>
                 </div>
@@ -1847,9 +1577,9 @@
 
                 <div class="pointer-box">
                     <h4 class="name">
-                        <a href="#">Products Name Here</a>
+                        <a href="#">Lamp</a>
                     </h4>
-                    <span class="price">$40.00</span>
+                    <span class="price">$20.00</span>
                 </div>
             </div>
 
@@ -1858,9 +1588,9 @@
 
                 <div class="pointer-box">
                     <h4 class="name">
-                        <a href="#">Products Name Here</a>
+                        <a href="#">Decoration</a>
                     </h4>
-                    <span class="price">$40.00</span>
+                    <span class="price">$15.00</span>
                 </div>
             </div>
 
@@ -1869,9 +1599,9 @@
 
                 <div class="pointer-box">
                     <h4 class="name">
-                        <a href="#">Products Name Here</a>
+                        <a href="#">Boxes</a>
                     </h4>
-                    <span class="price">$40.00</span>
+                    <span class="price">$25.00</span>
                 </div>
             </div>
         </div>
@@ -1886,7 +1616,7 @@
             <div class="brand-col">
                 <!-- Single Brand Start -->
                 <div class="single-brand">
-                    <img src="~/assets/images/brand/brand-1.png" width="118" height="87" alt="brand" />
+                    <img src="~/assets/images/brand/brand-1.png" width="100" height="87" alt="brand" />
                 </div>
                 <!-- Single Brand Start -->
             </div>
@@ -1894,7 +1624,7 @@
             <div class="brand-col">
                 <!-- Single Brand Start -->
                 <div class="single-brand">
-                    <img src="~/assets/images/brand/brand-2.png" width="118" height="87" alt="brand" />
+                    <img src="~/assets/images/brand/brand-2.png" width="100" height="87" alt="brand" />
                 </div>
                 <!-- Single Brand Start -->
             </div>
@@ -1902,7 +1632,7 @@
             <div class="brand-col">
                 <!-- Single Brand Start -->
                 <div class="single-brand">
-                    <img src="~/assets/images/brand/brand-3.png" width="118" height="87" alt="brand" />
+                    <img src="~/assets/images/brand/brand-3.png" width="100" height="87" alt="brand" />
                 </div>
                 <!-- Single Brand Start -->
             </div>
@@ -1910,7 +1640,7 @@
             <div class="brand-col">
                 <!-- Single Brand Start -->
                 <div class="single-brand">
-                    <img src="~/assets/images/brand/brand-4.png" width="118" height="87" alt="brand" />
+                    <img src="~/assets/images/brand/brand-4.png" width="100" height="87" alt="brand" />
                 </div>
                 <!-- Single Brand Start -->
             </div>
@@ -1918,7 +1648,7 @@
             <div class="brand-col">
                 <!-- Single Brand Start -->
                 <div class="single-brand">
-                    <img src="~/assets/images/brand/brand-5.png" width="118" height="87" alt="brand" />
+                    <img src="~/assets/images/brand/brand-5.png" width="100" height="87" alt="brand" />
                 </div>
                 <!-- Single Brand Start -->
             </div>

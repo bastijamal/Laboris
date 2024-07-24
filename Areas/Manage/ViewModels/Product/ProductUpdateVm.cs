@@ -7,8 +7,8 @@ namespace Laboris.Areas.Manage.ViewModels.Product
 	{
         public int Id { get; set; }
 
-        [MinLength(5)]
-        [MaxLength(20)]
+      
+  
         public string Name { get; set; }
 
         public double Price { get; set; }
@@ -20,7 +20,7 @@ namespace Laboris.Areas.Manage.ViewModels.Product
 
         public IFormFile ImgFile { get; set; }
 
-        public List<int> TagIds { get; set; }
+        public List<int> TagIds { get; set; } = new List<int>();
 
 
 
@@ -32,6 +32,7 @@ namespace Laboris.Areas.Manage.ViewModels.Product
         public string? Color { get; set; }
 
         public string? Size { get; set; }
+        
     }
 }
 

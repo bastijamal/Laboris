@@ -8,7 +8,7 @@
 
 </style>
 <!-- Page Banner Section Start -->
-<div class="section page-banner-section" style="background-image: url(/assets/images/fur-back.jpeg)">
+<div class="section page-banner-section" style="background-image: url(/assets/images/banner-main/banner-2.webp)">
     <div class="container">
         <!-- Page Banner Content End -->
         <div class="page-banner-content">
@@ -33,10 +33,32 @@
                     <!-- Shop top Bar Start -->
                     <div class="shop-top-bar">
                         <div class="shop-text">
-                            <p>
-                                <span>2</span> Product Found of
-                                <span>@Model.Products.Count</span>
-                            </p>
+
+                            @if (Model.Products.Count == 0)
+                            {
+                                <p>
+                                    <span></span> No Product Found
+                                    <span></span>
+                                </p>
+                            }
+
+
+                            @if (Model.Products.Count == 1)
+                            {
+                                <p>
+                                    <span>1</span>  Product Found
+                                    <span></span>
+                                </p>
+                            }
+
+                            @if (Model.Products.Count > 1)
+                            {
+                                <p>
+                                    <span>@Model.Products.Count</span> Products Found
+                                    <span></span>
+                                </p>
+                            }
+
                         </div>
                         <div class="shop-tabs">
                             <ul class="nav">
@@ -83,9 +105,9 @@
                                     @foreach (Products product in Model.Products)
                                     {
                                         <div class="col-lg-4 col-sm-6">
-                                            <!-- Single Product Start -->
+                                             
                                             <div class="single-product">
-                                                <a href="#"><img src="~/upload/products/@product.PhotoUrl" width="270" height="303" alt="product" /></a>
+                                                <a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/upload/products/@product.PhotoUrl" width="200" height="303" alt="product" /></a>
                                                 <div class="product-content">
                                                     <h4 class="title">
                                                         <a href="product-details.html">@product.Name</a>
@@ -101,14 +123,14 @@
                                                     }
 
                                                     <li>
-                                                        <a class="action" href="#"><i class="pe-7s-shopbag"></i></a>
+                                                        <a class="action"  asp-action="AddBasket" asp-controller="Cart" asp-route-id="@product.Id"><i class="pe-7s-shopbag"></i></a>
                                                     </li>
                                                     <li>
-                                                        <a class="action" href="#"><i class="pe-7s-like"></i></a>
+                                                        <a class="action" asp-action="AddWishlist" asp-controller="Wishlist" asp-route-id="@product.Id"><i class="pe-7s-like"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <!-- Single Product End -->
+                                             
                                         </div>
                                     }
 
@@ -128,7 +150,7 @@
                                     <!-- Single Product Start -->
                                     <div class="single-product-02 product-list">
                                         <div class="product-images">
-                                            <a href="#"><img src="~/upload/products/@product.PhotoUrl" width="270" height="303" alt="product" /></a>
+                                            <a asp-action="Detail" asp-controller="Home" asp-route-id="@product.Id"><img src="~/upload/products/@product.PhotoUrl" width="200" alt="product" /></a>
 
                                             <ul class="product-meta">
                                                 @if (product.Percent > 0)
@@ -156,11 +178,10 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <!-- Single Product End -->
+
                                 }
 
-
-
+                                <!-- Single Product End -->
 
 
                             </div>
@@ -172,14 +193,24 @@
                     <!-- Page pagination Start -->
                     <div class="page-pagination pt-5 mt-5">
                         <ul class="pagination justify-content-center">
-                            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-left pt-2"></i></a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link active" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-right pt-2"></i></a></li>
+
+
+                            @* gor olmasa -1 ele*@
+                            <li class="page-item @(ViewBag.CurrentPage-1==0?"disabled":"")"><a class="page-link" asp-route-page="@(ViewBag.CurrentPage-2)" asp-action="AllProducts" asp-controller="Home"><i class="fa fa-angle-left pt-2"></i></a></li>
+
+                            @for (int i = 1; i <= ViewBag.TotalPage; i++)
+                            {
+                                <li class="page-item @(i==ViewBag.CurrentPage? "disabled":"")"><a class="page-link" asp-route-page="@(i-1)" asp-action="AllProducts" asp-controller="Home">@i</a></li>
+                            }
+
+                            <li class="page-item @(ViewBag.CurrentPage==ViewBag.TotalPage?"disabled":"")"><a class="page-link" asp-route-page="@(ViewBag.CurrentPage)" asp-action="AllProducts" asp-controller="Home"><i class="fa fa-angle-right pt-2"></i></a></li>
+
                         </ul>
                     </div>
                     <!-- Page pagination End -->
+
+
+
                 </div>
                 <div class="col-lg-3">
                     <!-- Sidebar Start -->
@@ -208,7 +239,7 @@
                             <div class="widget-checkbox widget-categories">
                                 <ul class="checkbox-items">
                                     <li>
-                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-categoryId="@Model.CategoryId" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
                                             <span>All</span>
                                         </a>
                                     </li>
@@ -225,62 +256,49 @@
                             </div>
                         </div>
                         <!-- Sidebar Widget End -->
-                       
                         <!-- Sidebar Widget Start -->
                         <div class="sidebar-widget">
                             <h4 class="widget-title">Filter By Color</h4>
                             <div class="widget-checkbox">
                                 <ul class="checkbox-items">
-                                    <li>
-                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="blue" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
-                                            <span class="color-blue" style="display: inline-block; width: 15px; height: 15px; background-color: blue; margin-right: 5px;"></span>Blue
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="dark_blue" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
-                                            <span class="color-dark-blue" style="display: inline-block; width: 15px; height: 15px; background-color: darkblue; margin-right: 5px;"></span>Dark Blue
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="gray" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
-                                            <span class="color-gray" style="display: inline-block; width: 15px; height: 15px; background-color: gray; margin-right: 5px;"></span>Gray
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="green" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
-                                            <span class="color-green" style="display: inline-block; width: 15px; height: 15px; background-color: green; margin-right: 5px;"></span>Green
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="black" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
-                                            <span class="color-black" style="display: inline-block; width: 15px; height: 15px; background-color: black; margin-right: 5px;"></span>Black
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Home" asp-action="AllProducts" asp-route-color="red" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
-                                            <span class="color-red" style="display: inline-block; width: 15px; height: 15px; background-color: red; margin-right: 5px;"></span>Red
-                                        </a>
-                                    </li>
+                                    @foreach (var color in new List<string> { "Blue", "Gray", "Green", "Black", "Red","Brown"})
+                                        {
+                                        <li>
+                                            <a asp-controller="Home" asp-action="AllProducts"
+                                               asp-route-color="@color"
+                                               asp-route-order="@Model.Order"
+                                               asp-route-search="@Model.Search"
+                                               asp-route-categoryId="@Model.CategoryId"
+                                               asp-route-tagId="@Model.Tags">
+                                                <span class="color-@(color.Replace(" ", "").ToLower())" style="display: inline-block; width: 15px; height: 15px; background-color: @color.ToLower(); margin-right: 5px;"></span>@color
+                                            </a>
+                                        </li>
+                                    }
                                 </ul>
                             </div>
                         </div>
                         <!-- Sidebar Widget End -->
                         <!-- Sidebar Widget Start -->
                         <div class="sidebar-widget">
-
                             <h4 class="widget-title">Tags</h4>
-
                             <div class="widget-tags">
                                 <ul class="tags-list">
-                                    <li><a href="#">Clothing</a></li>
-                                    <li><a href="#">Accessories</a></li>
-                                    <li><a href="#">For Men</a></li>
-                                    <li><a href="#">Women</a></li>
-                                    <li><a href="#">Fashion</a></li>
+
+                                    @foreach (var tag in Model.Tags)
+                                    {
+                                        <li>
+                                            <a asp-controller="Home" asp-action="AllProducts" asp-route-tagId="@tag.Id" asp-route-color="@Model.SelectedColor" asp-route-categoryId="@Model.CategoryId" asp-route-order="@Model.Order" asp-route-search="@Model.Search">
+                                                <span>@tag.Name</span>
+                                            </a>
+                                        </li>
+                                    }
+
                                 </ul>
                             </div>
                         </div>
                         <!-- Sidebar Widget End -->
+
+
                     </div>
                     <!-- Sidebar End -->
                 </div>

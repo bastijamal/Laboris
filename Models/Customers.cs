@@ -12,7 +12,7 @@ namespace Laboris.Models;
     public string Name { get; set; }
 
     [MinLength(5)]
-    [MaxLength(100)]
+    
     public string Comment { get; set; }
 
   

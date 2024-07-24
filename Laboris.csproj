@@ -31,6 +31,9 @@
     <None Remove="Areas\Manage\Views\ProductsCategory\" />
     <None Remove="Services\" />
     <None Remove="Views\Cart\" />
+    <None Remove="Abstractions\" />
+    <None Remove="Abstractions\MailService\" />
+    <None Remove="Views\Wishlist\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -62,6 +65,9 @@
     <Folder Include="Areas\Manage\Views\ProductsCategory\" />
     <Folder Include="Services\" />
     <Folder Include="Views\Cart\" />
+    <Folder Include="Abstractions\" />
+    <Folder Include="Abstractions\MailService\" />
+    <Folder Include="Views\Wishlist\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\manage\" />
@@ -79,5 +85,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.30" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.30" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="MailKit" Version="4.7.0" />
+    <PackageReference Include="MimeKit" Version="4.7.0" />
+    <PackageReference Include="Stripe.net" Version="45.1.0" />
   </ItemGroup>
 </Project>

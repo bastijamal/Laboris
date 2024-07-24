@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fDC+g6QYV7HP9/9ydA0CysR+gTQr0QhLycrURG3jIIk=",
+  "Hash": "KWrAamU5HZcvaCPqYh9K42GkNvX7tVzBgqRtKg26/rY=",
   "Source": "Laboris",
   "BasePath": "_content/Laboris",
   "Mode": "Default",
@@ -6205,6 +6205,23 @@
       "OriginalItemSpec": "wwwroot/upload/products/1842bb3a-efd1-4e9f-873f-8b31632bdde8gulshen.jpeg"
     },
     {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/250e4b12-c722-45b4-acab-7225505b24d7blog-dec-img2.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/250e4b12-c722-45b4-acab-7225505b24d7blog-dec-img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/250e4b12-c722-45b4-acab-7225505b24d7blog-dec-img2.jpg"
+    },
+    {
       "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/27da2784-b250-4828-bab6-2875f8b95ad5besti.jpeg",
       "SourceId": "Laboris",
       "SourceType": "Discovered",
@@ -6222,6 +6239,40 @@
       "OriginalItemSpec": "wwwroot/upload/products/27da2784-b250-4828-bab6-2875f8b95ad5besti.jpeg"
     },
     {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/4a3f20ad-5d54-4778-9ffb-4452493c382dproduct-01.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/4a3f20ad-5d54-4778-9ffb-4452493c382dproduct-01.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/4a3f20ad-5d54-4778-9ffb-4452493c382dproduct-01.jpg"
+    },
+    {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/4e14b014-f4e6-418d-b635-cc90f7feac71product-04.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/4e14b014-f4e6-418d-b635-cc90f7feac71product-04.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/4e14b014-f4e6-418d-b635-cc90f7feac71product-04.jpg"
+    },
+    {
       "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/4efe8a87-0f28-426b-9da5-f93e18a320e8rukush2.jpeg",
       "SourceId": "Laboris",
       "SourceType": "Discovered",
@@ -6237,6 +6288,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/upload/products/4efe8a87-0f28-426b-9da5-f93e18a320e8rukush2.jpeg"
+    },
+    {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/4f8895a0-99b4-4b58-8bf4-f405edbf1c14product-02.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/4f8895a0-99b4-4b58-8bf4-f405edbf1c14product-02.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/4f8895a0-99b4-4b58-8bf4-f405edbf1c14product-02.jpg"
     },
     {
       "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/626b0bf2-1fb1-4ca3-9797-2d85a0fe012efur3.jpg",
@@ -6290,6 +6358,23 @@
       "OriginalItemSpec": "wwwroot/upload/products/84963144-a4ae-460a-8147-b91ef1c1c4bdfur1.3.jpg"
     },
     {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/85ac7e05-1c96-4c92-8396-a55369aaea5a_product-02.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/85ac7e05-1c96-4c92-8396-a55369aaea5a_product-02.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/85ac7e05-1c96-4c92-8396-a55369aaea5a_product-02.jpg"
+    },
+    {
       "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/b1112cd3-9865-41ee-adc5-d09ed6c93b0bgulnare.jpeg",
       "SourceId": "Laboris",
       "SourceType": "Discovered",
@@ -6305,6 +6390,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/upload/products/b1112cd3-9865-41ee-adc5-d09ed6c93b0bgulnare.jpeg"
+    },
+    {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/b5682fa5-22bb-46c9-8789-c14e00c3ecc0_product-02.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/b5682fa5-22bb-46c9-8789-c14e00c3ecc0_product-02.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/b5682fa5-22bb-46c9-8789-c14e00c3ecc0_product-02.jpg"
     },
     {
       "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/bc4046a6-b628-4855-8968-40ddac83b5a1fur2.jpg",
@@ -6341,6 +6443,23 @@
       "OriginalItemSpec": "wwwroot/upload/products/c4a8a35e-0883-48cf-b469-06ce52a97363gulshen.jpeg"
     },
     {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/c4f9455c-a496-4cac-850b-e8352733f201blog-dec-img2.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/c4f9455c-a496-4cac-850b-e8352733f201blog-dec-img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/c4f9455c-a496-4cac-850b-e8352733f201blog-dec-img2.jpg"
+    },
+    {
       "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/c97b1eeb-1a01-4b25-8064-63ac23bd1236fur1.1.jpg",
       "SourceId": "Laboris",
       "SourceType": "Discovered",
@@ -6358,6 +6477,23 @@
       "OriginalItemSpec": "wwwroot/upload/products/c97b1eeb-1a01-4b25-8064-63ac23bd1236fur1.1.jpg"
     },
     {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/cb468d9f-057a-45f9-8d1e-169f176a049eadmin-author.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/cb468d9f-057a-45f9-8d1e-169f176a049eadmin-author.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/cb468d9f-057a-45f9-8d1e-169f176a049eadmin-author.jpg"
+    },
+    {
       "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/e57c16da-51a4-4667-97db-3eac65ea4945gulnare.jpeg",
       "SourceId": "Laboris",
       "SourceType": "Discovered",
@@ -6373,6 +6509,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/upload/products/e57c16da-51a4-4667-97db-3eac65ea4945gulnare.jpeg"
+    },
+    {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/e73d12a3-07ba-4888-8453-6780a7ada11fproduct-03.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/e73d12a3-07ba-4888-8453-6780a7ada11fproduct-03.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/e73d12a3-07ba-4888-8453-6780a7ada11fproduct-03.jpg"
+    },
+    {
+      "Identity": "/Users/besticamalova/Projects/Laboris/wwwroot/upload/products/ef9016d2-683a-48fb-81dd-a537379e6cbeblog-dec-img2.jpg",
+      "SourceId": "Laboris",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/besticamalova/Projects/Laboris/wwwroot/",
+      "BasePath": "_content/Laboris",
+      "RelativePath": "upload/products/ef9016d2-683a-48fb-81dd-a537379e6cbeblog-dec-img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/upload/products/ef9016d2-683a-48fb-81dd-a537379e6cbeblog-dec-img2.jpg"
     }
   ]
 }

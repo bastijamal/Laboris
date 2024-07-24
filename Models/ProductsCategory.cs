@@ -10,7 +10,7 @@ namespace Laboris.Models
         [MinLength(3)]
         public string Name { get; set; }
 
-        public ICollection<Products> Products { get; set; }
+        public ICollection<Products>? Products { get; set; }
 
     }
 }

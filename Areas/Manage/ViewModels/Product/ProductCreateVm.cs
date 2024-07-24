@@ -7,8 +7,7 @@ namespace Laboris.Areas.Manage.ViewModels.Product
     public class ProductCreateVm
     {
 
-        [MinLength(5)]
-        [MaxLength(20)]
+        [MinLength(1)]
         public string Name { get; set; }
 
         public double Price { get; set; }
@@ -33,6 +32,7 @@ namespace Laboris.Areas.Manage.ViewModels.Product
         public string? Size { get; set; }
         ///
 
+     
     }
 }
 

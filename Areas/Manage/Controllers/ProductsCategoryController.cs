@@ -35,64 +35,79 @@ namespace Laboris.Areas.Manage.Controllers
         }
 
 
+
+
         [HttpPost]
         public async Task<IActionResult> Create(ProductsCategory productsCategory)
         {
-
-            if (!ModelState.IsValid) return View(productsCategory);
-
+            if (!ModelState.IsValid)
+            {
+                return View(productsCategory);
+            }
 
             await _context.ProductsCategories.AddAsync(productsCategory);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index");
-
-        }
-
-
-
-        public IActionResult Update(int id)
-        {
-            var productsCategory = _context.ProductsCategories.FirstOrDefault(s => s.Id == id);
-            if (productsCategory == null)
-            {
-                return View();
-            }
-
-            return View(productsCategory);
-        }
-
-
-        [HttpPost]
-        public IActionResult Update(ProductsCategory newproductscategory)
-        {
-            var oldproductscategory = _context.ProductsCategories.FirstOrDefault(x => x.Id == newproductscategory.Id);
-            if (oldproductscategory == null)
-            {
-                return View();
-            }
-
-            oldproductscategory.Name = newproductscategory.Name;
-
-
-            _context.SaveChanges();
             return RedirectToAction("Index");
         }
 
 
         public async Task<IActionResult> Delete(int id)
         {
-            var productsCategory = await _context.ProductsCategories.FirstOrDefaultAsync(x => x.Id == id);
+            var productsCategory = await _context.ProductsCategories
+                .Include(pc => pc.Products)
+                .FirstOrDefaultAsync(x => x.Id == id);
+
             if (productsCategory == null)
             {
                 return NotFound();
             }
 
+            //elave
+            _context.Products.RemoveRange(productsCategory.Products);
+
+
             _context.ProductsCategories.Remove(productsCategory);
+
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index");
         }
+
+
+        //public IActionResult Update(int id)
+        //{
+        //    var productsCategory = _context.ProductsCategories.FirstOrDefault(s => s.Id == id);
+        //    if (productsCategory == null)
+        //    {
+        //        return View();
+        //    }
+
+        //    return View(productsCategory);
+        //}
+
+
+        //[HttpPost]
+        //public IActionResult Update(ProductsCategory newproductscategory)
+        //{
+        //    var oldproductscategory = _context.ProductsCategories.FirstOrDefault(x => x.Id == newproductscategory.Id);
+        //    if (oldproductscategory == null)
+        //    {
+        //        return View();
+        //    }
+
+        //    oldproductscategory.Name = newproductscategory.Name;
+
+
+        //    _context.SaveChanges();
+        //    return RedirectToAction("Index");
+        //}
+
+
+
+
+
+
     }
 }
 

@@ -7,6 +7,9 @@
 
 }
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,12 +19,12 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Furbar - Furniture eCommerce Bootstrap 5 Template</title>
+    <title>Laboris</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/logo.png" />
 
     <!-- CSS
     ============================================ -->
@@ -96,12 +99,16 @@
                             <div class="dropdown-menu dropdown-search">
                                 <!-- Header Search Start -->
                                 <div class="header-search">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter your search key ... " />
-                                        <button>
+
+                                    <form asp-controller="Home" asp-action="Index">
+                                        <input type="text"
+                                           name="search"
+                                           placeholder="Enter your search key ... " />
+                                        <button type="submit">
                                             <i class="pe-7s-search"></i>
                                         </button>
                                     </form>
+
                                 </div>
                                 <!-- Header Search End -->
                             </div>
@@ -131,22 +138,22 @@
 
                             </ul>
                         </div>
-                        <a class="action" asp-controller="Home" asp-action="Wishlist"><i class="pe-7s-like"></i></a>
+                        <a class="action" asp-controller="Wishlist" asp-action="Wishlist"><i class="pe-7s-like"></i></a>
 
                         <div class="dropdown">
-                            <a class="action" href="#" role="button" data-bs-toggle="dropdown">
+                            <a class="action"  asp-action="Index" asp-controller="Cart"  role="button" >
                                 <i class="pe-7s-shopbag"></i>
-                                <span class="number">3</span>
+                                <span class="number">@basketItems.Count()</span>
                             </a>
 
-                            <div class="dropdown-menu dropdown-cart">
+                            @*<div class="dropdown-menu dropdown-cart">
                                 <div class="cart-content" id="cart-content">
                                     <ul>
                                         @foreach (var basketItem in basketItems)
                                             {
 
                                         <li>
-                                            <!-- Single Cart Item Start -->
+                                             Single Cart Item Start 
                                             <div class="single-cart-item">
                                                 <div class="cart-thumb">
                                                     <img src="~/assets/images/cart/cart-1.jpg" width="98" height="98"
@@ -169,7 +176,7 @@
                                                     <a class="cart-remove" href="#"><i class="las la-times"></i></a>
                                                 </div>
                                             </div>
-                                            <!-- Single Cart Item End -->
+                                             Single Cart Item End 
                                         </li>
                                             }
                                     </ul>
@@ -200,7 +207,7 @@
                                 <div class="checkout-btn">
                                     <a asp-controller="Home" asp-action="checkout" class="btn btn-dark btn-hover-primary d-block">Checkout</a>
                                 </div>
-                            </div>
+                            </div>*@
                         </div>
                     </div>
                     <!-- Header Meta End -->

@@ -55,16 +55,15 @@
 
 
 
-
-        <label asp-for="Color" class="form-label">Colors</label>
-        <select class="form-select" asp-for="Color">
+        <label asp-for="Color" class="form-label m-2">Colors</label>
+        <select class="form-select p-1" asp-for="Color">
             <option selected>Select color</option>
             <option value="Blue">Blue</option>
-            <option value="Dark Blue">Dark Blue</option>
             <option value="Gray">Gray</option>
             <option value="Green">Green</option>
             <option value="Black">Black</option>
             <option value="Red">Red</option>
+            <option value="Brown">Brown</option>
             <span asp-validation-for="Color" style="color:red"> </span>
 
         </select>
@@ -86,7 +85,7 @@
         <div>
 
             <label asp-for="TagIds" class="form-label">Tags</label>
-            <select class="form-select m-3" asp-for="TagIds" asp-items="new SelectList(ViewBag.Tags,nameof(Tag.Id),nameof(Tag.Name))">
+            <select class="form-select m-3 pl-2 pr-2 pb-3 pt-1" asp-for="TagIds" asp-items="new SelectList(ViewBag.Tags,nameof(Tag.Id),nameof(Tag.Name))">
                 <option disabled selected>Choose Tags</option>
                 <span asp-validation-for="TagIds" style="color:red"> </span>
             </select>
@@ -94,7 +93,7 @@
         </div>
 
 
-
+        <div asp-validation-summary="All" style="color:red"></div>
 
         <button asp-controller="Products" asp-action="Index" type="submit" class="btn btn-secondary">Back</button>
         <button type="submit" class="btn btn-success">Submit</button>

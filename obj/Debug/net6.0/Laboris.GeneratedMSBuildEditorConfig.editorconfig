@@ -124,12 +124,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/besticamalova/Projects/Laboris/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/Users/besticamalova/Projects/Laboris/Views/Home/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/besticamalova/Projects/Laboris/Views/Home/Wishlist.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9XaXNobGlzdC5jc2h0bWw=
+[/Users/besticamalova/Projects/Laboris/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/besticamalova/Projects/Laboris/Views/Shared/Error.cshtml]
@@ -142,6 +142,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/besticamalova/Projects/Laboris/Views/Shared/_ProductsPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Qcm9kdWN0c1BhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/besticamalova/Projects/Laboris/Views/Wishlist/Wishlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2lzaGxpc3QvV2lzaGxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/besticamalova/Projects/Laboris/Views/_ViewImports.cshtml]
